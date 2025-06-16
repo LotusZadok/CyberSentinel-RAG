@@ -1,0 +1,6 @@
+# requirements.txt
+pandas
+plotly
+faiss-cpu
+chromadb
+openai

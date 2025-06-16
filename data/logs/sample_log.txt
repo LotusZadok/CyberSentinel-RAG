@@ -1,0 +1,5 @@
+2025-06-15 10:01:23 INFO User login successful from 192.168.1.10
+2025-06-15 10:02:01 ERROR failed login for user admin from 192.168.1.100
+2025-06-15 10:03:45 WARNING authentication failure for user root from 10.0.0.200
+2025-06-15 10:04:12 INFO User logout from 192.168.1.10
+2025-06-15 10:05:00 ERROR failed login for user guest from 172.16.0.5

@@ -1,0 +1,6 @@
+entry,ip,type
+2025-06-15 10:02:01 ERROR failed login for user admin from 192.168.1.100,,failed_login
+2025-06-15 10:02:01 ERROR failed login for user admin from 192.168.1.100,192.168.1.100,suspicious_ip
+2025-06-15 10:03:45 WARNING authentication failure for user root from 10.0.0.200,,failed_login
+2025-06-15 10:03:45 WARNING authentication failure for user root from 10.0.0.200,10.0.0.200,suspicious_ip
+2025-06-15 10:05:00 ERROR failed login for user guest from 172.16.0.5,,failed_login
