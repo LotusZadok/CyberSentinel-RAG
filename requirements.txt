@@ -1,6 +1,17 @@
 # requirements.txt
+
+# Data processing and visualization
 pandas
 plotly
+
+# Vector database and embeddings
 faiss-cpu
 chromadb
+sentence-transformers
+
+# AI and ML
 openai
+python-dotenv
+
+# Progress bars
+tqdm

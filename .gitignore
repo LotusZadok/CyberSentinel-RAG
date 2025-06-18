@@ -192,3 +192,14 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore Python cache and environment
+__pycache__/
+venv/
+
+# Ignore vector database
+/data/vector_store/
+
+# Ignore logs and findings (optional, uncomment if needed)
+# /data/logs/*.csv
+# /data/logs/*.txt_findings.csv

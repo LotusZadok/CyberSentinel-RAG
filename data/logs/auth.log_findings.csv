@@ -1,0 +1,1231 @@
+entry,type
+Mar 27 14:01:39 ip-10-77-20-248 sshd[2938]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 14:54:58 ip-10-77-20-248 sshd[2967]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 15:46:53 ip-10-77-20-248 sshd[2996]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 15:59:42 ip-10-77-20-248 sshd[3242]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 18:22:26 ip-10-77-20-248 sshd[14922]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 18:27:18 ip-10-77-20-248 sshd[14924]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 18:27:19 ip-10-77-20-248 sshd[14926]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 18:27:21 ip-10-77-20-248 sshd[14928]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 18:27:25 ip-10-77-20-248 sshd[14930]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 18:27:49 ip-10-77-20-248 sshd[14932]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 19:17:05 ip-10-77-20-248 sshd[14957]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 20:36:49 ip-10-77-20-248 sshd[21242]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 20:59:37 ip-10-77-20-248 sshd[21255]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 22:02:42 ip-10-77-20-248 sshd[21293]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 22:43:45 ip-10-77-20-248 sshd[21309]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 27 23:47:15 ip-10-77-20-248 sshd[21347]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 00:24:59 ip-10-77-20-248 sshd[21363]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 00:49:58 ip-10-77-20-248 sshd[21376]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 01:02:17 ip-10-77-20-248 sshd[21378]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 02:01:05 ip-10-77-20-248 sshd[21416]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 02:43:55 ip-10-77-20-248 sshd[21432]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 02:43:57 ip-10-77-20-248 sshd[21434]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 02:43:59 ip-10-77-20-248 sshd[21436]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 02:44:02 ip-10-77-20-248 sshd[21438]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 03:56:51 ip-10-77-20-248 sshd[21490]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 04:29:26 ip-10-77-20-248 sshd[21516]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 04:56:38 ip-10-77-20-248 sshd[21539]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 05:20:02 ip-10-77-20-248 sshd[21567]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 06:07:02 ip-10-77-20-248 sshd[21599]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 06:29:51 ip-10-77-20-248 sshd[21729]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 07:36:32 ip-10-77-20-248 sshd[22419]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 08:39:15 ip-10-77-20-248 sshd[22495]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:16:04 ip-10-77-20-248 sshd[22528]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:16:13 ip-10-77-20-248 sshd[22530]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:20:48 ip-10-77-20-248 sshd[22539]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:20:50 ip-10-77-20-248 sshd[22541]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:20:54 ip-10-77-20-248 sshd[22543]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:21:02 ip-10-77-20-248 sshd[22545]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:21:18 ip-10-77-20-248 sshd[22547]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:24:03 ip-10-77-20-248 sshd[22560]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:32:30 ip-10-77-20-248 sshd[22564]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:34:38 ip-10-77-20-248 sshd[22566]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 09:52:53 ip-10-77-20-248 sshd[22579]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 10:04:17 ip-10-77-20-248 sshd[22581]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 10:32:01 ip-10-77-20-248 sshd[22680]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 11:29:13 ip-10-77-20-248 sshd[23096]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 11:48:31 ip-10-77-20-248 sshd[23115]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 11:53:24 ip-10-77-20-248 sshd[23117]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 11:55:31 ip-10-77-20-248 sshd[23130]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 12:10:01 ip-10-77-20-248 sshd[28990]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 14:48:28 ip-10-77-20-248 sshd[29213]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 16:22:59 ip-10-77-20-248 sshd[29260]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 16:25:08 ip-10-77-20-248 sshd[29262]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 17:13:06 ip-10-77-20-248 sshd[29286]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 17:59:00 ip-10-77-20-248 sshd[29317]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 18:16:58 ip-10-77-20-248 sshd[29404]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 28 22:36:12 ip-10-77-20-248 sshd[30174]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 29 10:42:43 ip-10-77-20-248 sshd[1193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=elastic_user_7,failed_login
+Mar 29 13:07:13 ip-10-77-20-248 sshd[2257]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_0,failed_login
+Mar 29 13:41:13 ip-10-77-20-248 sshd[2328]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_2,failed_login
+Mar 29 14:15:38 ip-10-77-20-248 sshd[2414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.206.27,failed_login
+Mar 29 14:15:52 ip-10-77-20-248 sshd[2414]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 29 14:15:52 ip-10-77-20-248 sshd[2414]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.206.27,failed_login
+Mar 29 14:16:10 ip-10-77-20-248 sshd[2475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.206.27,failed_login
+Mar 29 14:16:23 ip-10-77-20-248 sshd[2475]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 29 14:16:23 ip-10-77-20-248 sshd[2475]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.206.27,failed_login
+Mar 29 17:33:15 ip-10-77-20-248 sshd[4888]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_6,failed_login
+Mar 29 19:30:17 ip-10-77-20-248 sshd[5743]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_4,failed_login
+Mar 29 23:18:19 ip-10-77-20-248 sshd[6402]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.60.136.106  user=root,failed_login
+Mar 29 23:18:33 ip-10-77-20-248 sshd[6402]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 29 23:18:33 ip-10-77-20-248 sshd[6402]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.60.136.106  user=root,failed_login
+Mar 30 02:06:39 ip-10-77-20-248 sshd[11407]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.57.58.19  user=root,failed_login
+Mar 30 02:06:53 ip-10-77-20-248 sshd[11407]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 30 02:06:53 ip-10-77-20-248 sshd[11407]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.57.58.19  user=root,failed_login
+Mar 30 03:08:09 ip-10-77-20-248 sshd[11434]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.23.168.176  user=root,failed_login
+Mar 30 03:08:21 ip-10-77-20-248 sshd[11434]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 30 03:08:21 ip-10-77-20-248 sshd[11434]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.23.168.176  user=root,failed_login
+Mar 30 10:57:21 ip-10-77-20-248 sshd[12414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_3,failed_login
+Mar 30 11:43:13 ip-10-77-20-248 sshd[12766]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=151.241.67.217  user=root,failed_login
+Mar 30 11:43:39 ip-10-77-20-248 sshd[12766]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=151.241.67.217  user=root,failed_login
+Mar 30 14:05:19 ip-10-77-20-248 sshd[13619]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_6,failed_login
+Mar 30 15:29:14 ip-10-77-20-248 sshd[14093]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_8,failed_login
+Mar 30 15:29:17 ip-10-77-20-248 sshd[14095]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_8,failed_login
+Mar 30 15:54:17 ip-10-77-20-248 sshd[14356]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:20 ip-10-77-20-248 sshd[14358]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:23 ip-10-77-20-248 sshd[14360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:26 ip-10-77-20-248 sshd[14362]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:29 ip-10-77-20-248 sshd[14364]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:32 ip-10-77-20-248 sshd[14366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:35 ip-10-77-20-248 sshd[14368]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:38 ip-10-77-20-248 sshd[14370]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:41 ip-10-77-20-248 sshd[14372]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:44 ip-10-77-20-248 sshd[14374]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:47 ip-10-77-20-248 sshd[14376]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:50 ip-10-77-20-248 sshd[14378]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:53 ip-10-77-20-248 sshd[14380]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:56 ip-10-77-20-248 sshd[14382]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:54:59 ip-10-77-20-248 sshd[14384]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:02 ip-10-77-20-248 sshd[14386]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:06 ip-10-77-20-248 sshd[14388]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:08 ip-10-77-20-248 sshd[14390]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:11 ip-10-77-20-248 sshd[14392]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:14 ip-10-77-20-248 sshd[14394]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:18 ip-10-77-20-248 sshd[14396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:21 ip-10-77-20-248 sshd[14398]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:24 ip-10-77-20-248 sshd[14400]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:27 ip-10-77-20-248 sshd[14402]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:30 ip-10-77-20-248 sshd[14404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:33 ip-10-77-20-248 sshd[14406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:36 ip-10-77-20-248 sshd[14408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:39 ip-10-77-20-248 sshd[14410]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:42 ip-10-77-20-248 sshd[14412]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:45 ip-10-77-20-248 sshd[14414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:49 ip-10-77-20-248 sshd[14416]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:52 ip-10-77-20-248 sshd[14418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:55 ip-10-77-20-248 sshd[14420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:55:58 ip-10-77-20-248 sshd[14422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:02 ip-10-77-20-248 sshd[14424]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:05 ip-10-77-20-248 sshd[14426]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:07 ip-10-77-20-248 sshd[14428]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:10 ip-10-77-20-248 sshd[14430]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:14 ip-10-77-20-248 sshd[14432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:17 ip-10-77-20-248 sshd[14434]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:19 ip-10-77-20-248 sshd[14436]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:22 ip-10-77-20-248 sshd[14438]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:26 ip-10-77-20-248 sshd[14440]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:28 ip-10-77-20-248 sshd[14444]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:31 ip-10-77-20-248 sshd[14514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:34 ip-10-77-20-248 sshd[14516]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:37 ip-10-77-20-248 sshd[14518]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:40 ip-10-77-20-248 sshd[14520]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:43 ip-10-77-20-248 sshd[14522]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:46 ip-10-77-20-248 sshd[14524]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:49 ip-10-77-20-248 sshd[14526]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:52 ip-10-77-20-248 sshd[14528]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:55 ip-10-77-20-248 sshd[14530]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:56:58 ip-10-77-20-248 sshd[14532]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:02 ip-10-77-20-248 sshd[14534]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:05 ip-10-77-20-248 sshd[14536]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:08 ip-10-77-20-248 sshd[14538]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:11 ip-10-77-20-248 sshd[14540]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:13 ip-10-77-20-248 sshd[14542]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:16 ip-10-77-20-248 sshd[14544]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:19 ip-10-77-20-248 sshd[14546]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:22 ip-10-77-20-248 sshd[14548]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:25 ip-10-77-20-248 sshd[14550]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:28 ip-10-77-20-248 sshd[14552]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:32 ip-10-77-20-248 sshd[14554]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:35 ip-10-77-20-248 sshd[14556]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:37 ip-10-77-20-248 sshd[14558]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:40 ip-10-77-20-248 sshd[14560]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:44 ip-10-77-20-248 sshd[14562]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:46 ip-10-77-20-248 sshd[14564]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:49 ip-10-77-20-248 sshd[14566]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:52 ip-10-77-20-248 sshd[14568]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:56 ip-10-77-20-248 sshd[14570]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:57:59 ip-10-77-20-248 sshd[14572]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:01 ip-10-77-20-248 sshd[14574]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:04 ip-10-77-20-248 sshd[14576]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:08 ip-10-77-20-248 sshd[14578]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:11 ip-10-77-20-248 sshd[14580]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:14 ip-10-77-20-248 sshd[14582]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:16 ip-10-77-20-248 sshd[14584]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:20 ip-10-77-20-248 sshd[14586]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:23 ip-10-77-20-248 sshd[14588]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:25 ip-10-77-20-248 sshd[14590]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:28 ip-10-77-20-248 sshd[14592]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:31 ip-10-77-20-248 sshd[14594]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:34 ip-10-77-20-248 sshd[14596]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:37 ip-10-77-20-248 sshd[14598]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:40 ip-10-77-20-248 sshd[14600]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:43 ip-10-77-20-248 sshd[14602]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:45 ip-10-77-20-248 sshd[14604]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:48 ip-10-77-20-248 sshd[14606]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:51 ip-10-77-20-248 sshd[14608]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:54 ip-10-77-20-248 sshd[14610]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:56 ip-10-77-20-248 sshd[14612]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:58:59 ip-10-77-20-248 sshd[14614]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:01 ip-10-77-20-248 sshd[14616]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:04 ip-10-77-20-248 sshd[14618]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:07 ip-10-77-20-248 sshd[14620]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:10 ip-10-77-20-248 sshd[14622]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:13 ip-10-77-20-248 sshd[14624]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:16 ip-10-77-20-248 sshd[14626]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:19 ip-10-77-20-248 sshd[14628]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:21 ip-10-77-20-248 sshd[14630]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:24 ip-10-77-20-248 sshd[14632]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:28 ip-10-77-20-248 sshd[14634]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:31 ip-10-77-20-248 sshd[14636]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:33 ip-10-77-20-248 sshd[14638]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:36 ip-10-77-20-248 sshd[14640]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:39 ip-10-77-20-248 sshd[14642]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:42 ip-10-77-20-248 sshd[14644]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:45 ip-10-77-20-248 sshd[14646]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:48 ip-10-77-20-248 sshd[14648]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:51 ip-10-77-20-248 sshd[14650]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:54 ip-10-77-20-248 sshd[14652]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 15:59:57 ip-10-77-20-248 sshd[14654]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:00 ip-10-77-20-248 sshd[14656]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:02 ip-10-77-20-248 sshd[14658]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:05 ip-10-77-20-248 sshd[14660]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:08 ip-10-77-20-248 sshd[14662]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:11 ip-10-77-20-248 sshd[14664]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:15 ip-10-77-20-248 sshd[14666]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:18 ip-10-77-20-248 sshd[14668]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:22 ip-10-77-20-248 sshd[14670]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:24 ip-10-77-20-248 sshd[14672]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:27 ip-10-77-20-248 sshd[14674]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:30 ip-10-77-20-248 sshd[14676]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:33 ip-10-77-20-248 sshd[14678]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:36 ip-10-77-20-248 sshd[14680]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:39 ip-10-77-20-248 sshd[14682]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:42 ip-10-77-20-248 sshd[14684]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:45 ip-10-77-20-248 sshd[14686]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:48 ip-10-77-20-248 sshd[14688]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:51 ip-10-77-20-248 sshd[14690]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:54 ip-10-77-20-248 sshd[14692]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:00:57 ip-10-77-20-248 sshd[14694]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:00 ip-10-77-20-248 sshd[14696]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:03 ip-10-77-20-248 sshd[14698]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:06 ip-10-77-20-248 sshd[14700]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:09 ip-10-77-20-248 sshd[14702]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:12 ip-10-77-20-248 sshd[14704]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:15 ip-10-77-20-248 sshd[14706]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:18 ip-10-77-20-248 sshd[14708]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:21 ip-10-77-20-248 sshd[14710]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:24 ip-10-77-20-248 sshd[14712]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:27 ip-10-77-20-248 sshd[14714]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:30 ip-10-77-20-248 sshd[14716]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 16:01:33 ip-10-77-20-248 sshd[14718]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=24.151.103.17  user=elastic_user_0,failed_login
+Mar 30 21:54:02 ip-10-77-20-248 sshd[16330]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.201.155  user=root,failed_login
+Mar 30 21:54:16 ip-10-77-20-248 sshd[16330]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 30 21:54:16 ip-10-77-20-248 sshd[16330]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.201.155  user=root,failed_login
+Mar 30 21:54:16 ip-10-77-20-248 sshd[16332]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.201.155,failed_login
+Mar 30 21:54:28 ip-10-77-20-248 sshd[16332]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 30 21:54:28 ip-10-77-20-248 sshd[16332]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.201.155,failed_login
+Mar 30 22:00:39 ip-10-77-20-248 sshd[16384]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.40.168.90  user=root,failed_login
+Mar 30 22:00:51 ip-10-77-20-248 sshd[16384]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 30 22:00:51 ip-10-77-20-248 sshd[16384]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.40.168.90  user=root,failed_login
+Mar 31 01:35:14 ip-10-77-20-248 sshd[17262]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.189.198.238,failed_login
+Mar 31 01:35:28 ip-10-77-20-248 sshd[17262]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 31 01:35:28 ip-10-77-20-248 sshd[17262]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.189.198.238,failed_login
+Mar 31 01:52:26 ip-10-77-20-248 sshd[17275]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_9,failed_login
+Mar 31 05:59:27 ip-10-77-20-248 sshd[18284]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_5,failed_login
+Mar 31 06:34:36 ip-10-77-20-248 sshd[18539]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.187.118.40,failed_login
+Mar 31 06:34:49 ip-10-77-20-248 sshd[18539]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 31 06:34:49 ip-10-77-20-248 sshd[18539]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.187.118.40,failed_login
+Mar 31 07:05:44 ip-10-77-20-248 sshd[18675]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.245.107.41  user=elastic_user_1,failed_login
+Mar 31 10:36:14 ip-10-77-20-248 sshd[19551]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.191.89.89  user=root,failed_login
+Mar 31 10:36:28 ip-10-77-20-248 sshd[19551]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 31 10:36:28 ip-10-77-20-248 sshd[19551]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.191.89.89  user=root,failed_login
+Mar 31 11:06:37 ip-10-77-20-248 sshd[19710]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=42.184.142.151,failed_login
+Mar 31 11:06:50 ip-10-77-20-248 sshd[19710]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 31 11:06:50 ip-10-77-20-248 sshd[19710]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=42.184.142.151,failed_login
+Mar 31 14:15:38 ip-10-77-20-248 sshd[20589]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=82.64.2.59,failed_login
+Mar 31 14:15:50 ip-10-77-20-248 sshd[20589]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 31 14:15:50 ip-10-77-20-248 sshd[20589]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=82.64.2.59,failed_login
+Mar 31 22:57:30 ip-10-77-20-248 sshd[21263]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=114.32.100.101,failed_login
+Mar 31 22:57:44 ip-10-77-20-248 sshd[21263]: Disconnecting: Too many authentication failures [preauth],failed_login
+Mar 31 22:57:44 ip-10-77-20-248 sshd[21263]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=114.32.100.101,failed_login
+Apr  1 05:46:40 ip-10-77-20-248 sshd[21987]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.244.28.82  user=root,failed_login
+Apr  1 05:46:54 ip-10-77-20-248 sshd[21987]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 05:46:54 ip-10-77-20-248 sshd[21987]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.244.28.82  user=root,failed_login
+Apr  1 18:08:15 ip-10-77-20-248 sshd[22932]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.153.146.183,failed_login
+Apr  1 18:08:27 ip-10-77-20-248 sshd[22932]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 18:08:27 ip-10-77-20-248 sshd[22932]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.153.146.183,failed_login
+Apr  1 18:22:14 ip-10-77-20-248 sshd[22954]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:15 ip-10-77-20-248 sshd[22956]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:17 ip-10-77-20-248 sshd[22958]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:21 ip-10-77-20-248 sshd[22960]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:28 ip-10-77-20-248 sshd[22956]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 18:22:28 ip-10-77-20-248 sshd[22956]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:28 ip-10-77-20-248 sshd[22954]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 18:22:28 ip-10-77-20-248 sshd[22954]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:30 ip-10-77-20-248 sshd[22962]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35  user=root,failed_login
+Apr  1 18:22:30 ip-10-77-20-248 sshd[22958]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 18:22:30 ip-10-77-20-248 sshd[22958]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:34 ip-10-77-20-248 sshd[22960]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 18:22:34 ip-10-77-20-248 sshd[22960]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35,failed_login
+Apr  1 18:22:45 ip-10-77-20-248 sshd[22962]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 18:22:45 ip-10-77-20-248 sshd[22962]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.26.186.35  user=root,failed_login
+Apr  1 20:38:34 ip-10-77-20-248 sshd[23159]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.152.79.79,failed_login
+Apr  1 20:38:49 ip-10-77-20-248 sshd[23159]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 20:38:49 ip-10-77-20-248 sshd[23159]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.152.79.79,failed_login
+Apr  1 21:27:48 ip-10-77-20-248 sshd[23210]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.30.211.144,failed_login
+Apr  1 21:28:02 ip-10-77-20-248 sshd[23210]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 21:28:02 ip-10-77-20-248 sshd[23210]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.30.211.144,failed_login
+Apr  1 22:52:08 ip-10-77-20-248 sshd[23296]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.167.75.191  user=root,failed_login
+Apr  1 22:52:21 ip-10-77-20-248 sshd[23296]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  1 22:52:21 ip-10-77-20-248 sshd[23296]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.167.75.191  user=root,failed_login
+Apr  2 17:03:43 ip-10-77-20-248 sshd[24892]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=93.120.176.237,failed_login
+Apr  2 17:03:54 ip-10-77-20-248 sshd[24892]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  2 17:03:54 ip-10-77-20-248 sshd[24892]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=93.120.176.237,failed_login
+Apr  2 19:51:55 ip-10-77-20-248 sshd[25073]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.106.21.86,failed_login
+Apr  2 19:52:08 ip-10-77-20-248 sshd[25073]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  2 19:52:08 ip-10-77-20-248 sshd[25073]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=78.106.21.86,failed_login
+Apr  3 14:51:35 ip-10-77-20-248 sshd[7192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.251.168.248,failed_login
+Apr  3 14:51:49 ip-10-77-20-248 sshd[7192]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  3 14:51:49 ip-10-77-20-248 sshd[7192]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.251.168.248,failed_login
+Apr  3 22:52:27 ip-10-77-20-248 sshd[7626]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.193.140.176,failed_login
+Apr  3 22:52:40 ip-10-77-20-248 sshd[7626]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  3 22:52:40 ip-10-77-20-248 sshd[7626]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.193.140.176,failed_login
+Apr  3 22:53:12 ip-10-77-20-248 sshd[7628]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.19.144.50,failed_login
+Apr  3 22:53:28 ip-10-77-20-248 sshd[7628]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  3 22:53:28 ip-10-77-20-248 sshd[7628]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.19.144.50,failed_login
+Apr  4 01:13:29 ip-10-77-20-248 sshd[7691]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.112.235.133  user=root,failed_login
+Apr  4 01:13:41 ip-10-77-20-248 sshd[7691]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  4 01:13:41 ip-10-77-20-248 sshd[7691]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.112.235.133  user=root,failed_login
+Apr  4 03:50:43 ip-10-77-20-248 sshd[8094]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.189.193.214  user=bin,failed_login
+Apr  4 03:50:55 ip-10-77-20-248 sshd[8094]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  4 03:50:55 ip-10-77-20-248 sshd[8094]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.189.193.214  user=bin,failed_login
+Apr  5 07:11:14 ip-10-77-20-248 sshd[14711]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:11:27 ip-10-77-20-248 sshd[14711]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:11:27 ip-10-77-20-248 sshd[14711]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:11:58 ip-10-77-20-248 sshd[14722]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:12:11 ip-10-77-20-248 sshd[14722]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:12:11 ip-10-77-20-248 sshd[14722]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:14:01 ip-10-77-20-248 sshd[14750]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:14:14 ip-10-77-20-248 sshd[14750]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:14:14 ip-10-77-20-248 sshd[14750]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:14:42 ip-10-77-20-248 sshd[14760]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:14:56 ip-10-77-20-248 sshd[14760]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:14:56 ip-10-77-20-248 sshd[14760]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:15:00 ip-10-77-20-248 sshd[14762]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:15:14 ip-10-77-20-248 sshd[14762]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:15:14 ip-10-77-20-248 sshd[14762]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:15:19 ip-10-77-20-248 sshd[14765]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:15:33 ip-10-77-20-248 sshd[14765]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:15:33 ip-10-77-20-248 sshd[14765]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:15:48 ip-10-77-20-248 sshd[14770]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:16:02 ip-10-77-20-248 sshd[14770]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:16:02 ip-10-77-20-248 sshd[14770]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:17:38 ip-10-77-20-248 sshd[14802]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:17:51 ip-10-77-20-248 sshd[14802]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:17:51 ip-10-77-20-248 sshd[14802]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:18:09 ip-10-77-20-248 sshd[14809]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:18:22 ip-10-77-20-248 sshd[14809]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:18:22 ip-10-77-20-248 sshd[14809]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:20:04 ip-10-77-20-248 sshd[14851]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:20:17 ip-10-77-20-248 sshd[14851]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:20:17 ip-10-77-20-248 sshd[14851]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:20:32 ip-10-77-20-248 sshd[14857]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:20:46 ip-10-77-20-248 sshd[14857]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:20:46 ip-10-77-20-248 sshd[14857]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:20:55 ip-10-77-20-248 sshd[14861]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:21:09 ip-10-77-20-248 sshd[14861]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:21:09 ip-10-77-20-248 sshd[14861]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:22:29 ip-10-77-20-248 sshd[14886]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:22:41 ip-10-77-20-248 sshd[14886]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:22:41 ip-10-77-20-248 sshd[14886]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:23:25 ip-10-77-20-248 sshd[14901]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:23:38 ip-10-77-20-248 sshd[14901]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:23:38 ip-10-77-20-248 sshd[14901]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:23:53 ip-10-77-20-248 sshd[14907]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:24:05 ip-10-77-20-248 sshd[14907]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:24:05 ip-10-77-20-248 sshd[14907]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:25:02 ip-10-77-20-248 sshd[14925]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:25:14 ip-10-77-20-248 sshd[14925]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:25:14 ip-10-77-20-248 sshd[14925]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:25:16 ip-10-77-20-248 sshd[14927]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:25:28 ip-10-77-20-248 sshd[14927]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:25:28 ip-10-77-20-248 sshd[14927]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:26:22 ip-10-77-20-248 sshd[14945]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:26:35 ip-10-77-20-248 sshd[14945]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:26:35 ip-10-77-20-248 sshd[14945]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:27:32 ip-10-77-20-248 sshd[14964]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:27:45 ip-10-77-20-248 sshd[14964]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:27:45 ip-10-77-20-248 sshd[14964]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:27:47 ip-10-77-20-248 sshd[14966]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:28:02 ip-10-77-20-248 sshd[14966]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:28:02 ip-10-77-20-248 sshd[14966]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.105  user=root,failed_login
+Apr  5 07:45:25 ip-10-77-20-248 sshd[15010]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.166.73.66,failed_login
+Apr  5 07:45:38 ip-10-77-20-248 sshd[15010]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 07:45:38 ip-10-77-20-248 sshd[15010]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.166.73.66,failed_login
+Apr  5 15:03:34 ip-10-77-20-248 sshd[15373]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.191.88.115  user=root,failed_login
+Apr  5 15:03:47 ip-10-77-20-248 sshd[15373]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 15:03:47 ip-10-77-20-248 sshd[15373]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.191.88.115  user=root,failed_login
+Apr  5 21:33:33 ip-10-77-20-248 sshd[15708]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.130.83.53  user=root,failed_login
+Apr  5 21:33:46 ip-10-77-20-248 sshd[15708]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 21:33:46 ip-10-77-20-248 sshd[15708]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.130.83.53  user=root,failed_login
+Apr  5 23:52:41 ip-10-77-20-248 sshd[15776]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.96.5.168,failed_login
+Apr  5 23:52:53 ip-10-77-20-248 sshd[15776]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  5 23:52:53 ip-10-77-20-248 sshd[15776]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.96.5.168,failed_login
+Apr  6 02:28:24 ip-10-77-20-248 sshd[15853]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.40.30.206,failed_login
+Apr  6 02:28:37 ip-10-77-20-248 sshd[15853]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  6 02:28:37 ip-10-77-20-248 sshd[15853]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.40.30.206,failed_login
+Apr  6 13:35:07 ip-10-77-20-248 sshd[16305]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=188.18.252.218  user=root,failed_login
+Apr  6 13:35:22 ip-10-77-20-248 sshd[16305]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  6 13:35:22 ip-10-77-20-248 sshd[16305]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=188.18.252.218  user=root,failed_login
+Apr  6 14:19:16 ip-10-77-20-248 sshd[16658]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=125.107.136.165,failed_login
+Apr  6 14:19:29 ip-10-77-20-248 sshd[16658]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  6 14:19:29 ip-10-77-20-248 sshd[16658]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=125.107.136.165,failed_login
+Apr  6 15:56:51 ip-10-77-20-248 sshd[16696]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=190.107.182.33  user=root,failed_login
+Apr  6 15:57:05 ip-10-77-20-248 sshd[16696]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  6 15:57:05 ip-10-77-20-248 sshd[16696]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=190.107.182.33  user=root,failed_login
+Apr  6 16:37:19 ip-10-77-20-248 sshd[16712]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.101.164.200  user=root,failed_login
+Apr  6 16:37:35 ip-10-77-20-248 sshd[16712]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  6 16:37:35 ip-10-77-20-248 sshd[16712]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.101.164.200  user=root,failed_login
+Apr  6 20:48:25 ip-10-77-20-248 sshd[16841]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:48:31 ip-10-77-20-248 sshd[16843]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:48:38 ip-10-77-20-248 sshd[16845]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:48:42 ip-10-77-20-248 sshd[16847]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:48:47 ip-10-77-20-248 sshd[16849]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:48:52 ip-10-77-20-248 sshd[16851]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:48:58 ip-10-77-20-248 sshd[16853]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:02 ip-10-77-20-248 sshd[16855]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:06 ip-10-77-20-248 sshd[16857]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:14 ip-10-77-20-248 sshd[16859]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:16 ip-10-77-20-248 sshd[16861]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:20 ip-10-77-20-248 sshd[16863]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:30 ip-10-77-20-248 sshd[16865]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:36 ip-10-77-20-248 sshd[16867]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:39 ip-10-77-20-248 sshd[16869]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:42 ip-10-77-20-248 sshd[16871]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:47 ip-10-77-20-248 sshd[16873]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:50 ip-10-77-20-248 sshd[16875]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:53 ip-10-77-20-248 sshd[16877]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:49:55 ip-10-77-20-248 sshd[16879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:10 ip-10-77-20-248 sshd[16881]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:20 ip-10-77-20-248 sshd[16883]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:23 ip-10-77-20-248 sshd[16885]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:25 ip-10-77-20-248 sshd[16887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:31 ip-10-77-20-248 sshd[16889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:36 ip-10-77-20-248 sshd[16891]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:42 ip-10-77-20-248 sshd[16893]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:48 ip-10-77-20-248 sshd[16895]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:50 ip-10-77-20-248 sshd[16897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:56 ip-10-77-20-248 sshd[16899]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:50:59 ip-10-77-20-248 sshd[16901]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:06 ip-10-77-20-248 sshd[16903]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:11 ip-10-77-20-248 sshd[16905]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:16 ip-10-77-20-248 sshd[16907]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:22 ip-10-77-20-248 sshd[16909]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:33 ip-10-77-20-248 sshd[16911]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:41 ip-10-77-20-248 sshd[16924]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:49 ip-10-77-20-248 sshd[16926]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:51:52 ip-10-77-20-248 sshd[16928]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:52:00 ip-10-77-20-248 sshd[16930]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:52:06 ip-10-77-20-248 sshd[16932]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:52:09 ip-10-77-20-248 sshd[16934]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 20:52:18 ip-10-77-20-248 sshd[16936]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=34.204.227.175,failed_login
+Apr  6 21:53:02 ip-10-77-20-248 sshd[16964]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.244.185.76,failed_login
+Apr  6 21:53:14 ip-10-77-20-248 sshd[16964]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  6 21:53:14 ip-10-77-20-248 sshd[16964]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=223.244.185.76,failed_login
+Apr  6 22:59:10 ip-10-77-20-248 sshd[17002]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=182.243.87.6,failed_login
+Apr  6 22:59:24 ip-10-77-20-248 sshd[17002]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  6 22:59:24 ip-10-77-20-248 sshd[17002]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=182.243.87.6,failed_login
+Apr  7 00:08:33 ip-10-77-20-248 sshd[17029]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.243.236.123  user=root,failed_login
+Apr  7 00:08:45 ip-10-77-20-248 sshd[17029]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  7 00:08:45 ip-10-77-20-248 sshd[17029]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.243.236.123  user=root,failed_login
+Apr  7 08:36:32 ip-10-77-20-248 sshd[17741]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.5  user=root,failed_login
+Apr  7 08:36:49 ip-10-77-20-248 sshd[17741]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  7 08:36:49 ip-10-77-20-248 sshd[17741]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.5  user=root,failed_login
+Apr  7 18:34:03 ip-10-77-20-248 sshd[18184]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.89.76.13  user=root,failed_login
+Apr  7 18:34:15 ip-10-77-20-248 sshd[18184]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  7 18:34:15 ip-10-77-20-248 sshd[18184]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.89.76.13  user=root,failed_login
+Apr  7 20:44:46 ip-10-77-20-248 sshd[18252]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=191.81.42.216  user=root,failed_login
+Apr  7 20:44:59 ip-10-77-20-248 sshd[18252]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  7 20:44:59 ip-10-77-20-248 sshd[18252]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=191.81.42.216  user=root,failed_login
+Apr  7 22:54:08 ip-10-77-20-248 sshd[18317]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.93.215.158  user=root,failed_login
+Apr  7 22:54:21 ip-10-77-20-248 sshd[18317]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  7 22:54:21 ip-10-77-20-248 sshd[18317]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.93.215.158  user=root,failed_login
+Apr  8 00:33:31 ip-10-77-20-248 sshd[18369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.190.143.18,failed_login
+Apr  8 00:33:45 ip-10-77-20-248 sshd[18369]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  8 00:33:45 ip-10-77-20-248 sshd[18369]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.190.143.18,failed_login
+Apr  8 18:21:09 ip-10-77-20-248 sshd[19391]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.183.117.250,failed_login
+Apr  8 18:21:22 ip-10-77-20-248 sshd[19391]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  8 18:21:22 ip-10-77-20-248 sshd[19391]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.183.117.250,failed_login
+Apr  8 18:58:26 ip-10-77-20-248 sshd[19415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.120.200.51  user=root,failed_login
+Apr  8 18:58:40 ip-10-77-20-248 sshd[19415]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  8 18:58:40 ip-10-77-20-248 sshd[19415]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.120.200.51  user=root,failed_login
+Apr  9 00:35:53 ip-10-77-20-248 sshd[19574]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=73.231.4.205  user=root,failed_login
+Apr  9 00:36:04 ip-10-77-20-248 sshd[19574]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 00:36:04 ip-10-77-20-248 sshd[19574]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=73.231.4.205  user=root,failed_login
+Apr  9 03:17:12 ip-10-77-20-248 sshd[19657]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=110.78.174.75,failed_login
+Apr  9 03:17:25 ip-10-77-20-248 sshd[19657]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 03:17:25 ip-10-77-20-248 sshd[19657]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=110.78.174.75,failed_login
+Apr  9 03:55:29 ip-10-77-20-248 sshd[19681]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.181  user=root,failed_login
+Apr  9 03:55:43 ip-10-77-20-248 sshd[19681]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 03:55:43 ip-10-77-20-248 sshd[19681]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.4.143.181  user=root,failed_login
+Apr  9 14:56:16 ip-10-77-20-248 sshd[20482]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.128.141.232  user=root,failed_login
+Apr  9 14:56:29 ip-10-77-20-248 sshd[20482]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 14:56:29 ip-10-77-20-248 sshd[20482]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.128.141.232  user=root,failed_login
+Apr  9 14:57:48 ip-10-77-20-248 sshd[20484]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=46.89.129.145,failed_login
+Apr  9 14:58:00 ip-10-77-20-248 sshd[20484]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 14:58:00 ip-10-77-20-248 sshd[20484]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=46.89.129.145,failed_login
+Apr  9 15:08:51 ip-10-77-20-248 sshd[20497]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.174.52.12  user=root,failed_login
+Apr  9 15:09:28 ip-10-77-20-248 sshd[20497]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 15:09:28 ip-10-77-20-248 sshd[20497]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.174.52.12  user=root,failed_login
+Apr  9 16:50:55 ip-10-77-20-248 sshd[20549]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.230.120.26,failed_login
+Apr  9 16:51:07 ip-10-77-20-248 sshd[20549]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 16:51:07 ip-10-77-20-248 sshd[20549]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.230.120.26,failed_login
+Apr  9 20:28:47 ip-10-77-20-248 sshd[21889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.189.197.241  user=root,failed_login
+Apr  9 20:29:00 ip-10-77-20-248 sshd[21889]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr  9 20:29:00 ip-10-77-20-248 sshd[21889]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.189.197.241  user=root,failed_login
+Apr 10 00:33:41 ip-10-77-20-248 sshd[22004]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.119.111.172  user=root,failed_login
+Apr 10 00:33:55 ip-10-77-20-248 sshd[22004]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 10 00:33:55 ip-10-77-20-248 sshd[22004]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.119.111.172  user=root,failed_login
+Apr 10 08:03:44 ip-10-77-20-248 sshd[22698]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.164.142.82  user=root,failed_login
+Apr 10 08:03:58 ip-10-77-20-248 sshd[22698]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 10 08:03:58 ip-10-77-20-248 sshd[22698]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.164.142.82  user=root,failed_login
+Apr 10 19:42:02 ip-10-77-20-248 sshd[23948]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=175.162.187.121,failed_login
+Apr 10 19:42:16 ip-10-77-20-248 sshd[23948]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 10 19:42:16 ip-10-77-20-248 sshd[23948]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=175.162.187.121,failed_login
+Apr 10 22:43:22 ip-10-77-20-248 sshd[24096]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.165.208.28  user=root,failed_login
+Apr 10 22:43:38 ip-10-77-20-248 sshd[24096]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 10 22:43:38 ip-10-77-20-248 sshd[24096]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=60.165.208.28  user=root,failed_login
+Apr 11 06:07:45 ip-10-77-20-248 sshd[24307]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.91.34.237  user=root,failed_login
+Apr 11 06:07:58 ip-10-77-20-248 sshd[24307]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 11 06:07:58 ip-10-77-20-248 sshd[24307]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.91.34.237  user=root,failed_login
+Apr 11 06:13:35 ip-10-77-20-248 sshd[24309]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.84.87.84,failed_login
+Apr 11 06:13:49 ip-10-77-20-248 sshd[24309]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 11 06:13:49 ip-10-77-20-248 sshd[24309]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=49.84.87.84,failed_login
+Apr 11 13:47:05 ip-10-77-20-248 sshd[24987]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.187.86.51  user=root,failed_login
+Apr 11 13:47:19 ip-10-77-20-248 sshd[24987]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 11 13:47:19 ip-10-77-20-248 sshd[24987]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.187.86.51  user=root,failed_login
+Apr 11 14:03:13 ip-10-77-20-248 sshd[25000]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.231.252.103  user=root,failed_login
+Apr 11 14:03:23 ip-10-77-20-248 sshd[25000]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.231.252.103  user=root,failed_login
+Apr 11 14:03:27 ip-10-77-20-248 sshd[25002]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.231.252.103  user=root,failed_login
+Apr 11 14:03:40 ip-10-77-20-248 sshd[25002]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 11 14:03:40 ip-10-77-20-248 sshd[25002]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.231.252.103  user=root,failed_login
+Apr 11 17:14:12 ip-10-77-20-248 sshd[25079]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.190.198.34  user=root,failed_login
+Apr 11 17:14:25 ip-10-77-20-248 sshd[25079]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 11 17:14:25 ip-10-77-20-248 sshd[25079]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.190.198.34  user=root,failed_login
+Apr 12 03:37:54 ip-10-77-20-248 sshd[25707]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.154.25.149  user=root,failed_login
+Apr 12 03:38:07 ip-10-77-20-248 sshd[25707]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 12 03:38:07 ip-10-77-20-248 sshd[25707]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.154.25.149  user=root,failed_login
+Apr 12 06:54:37 ip-10-77-20-248 sshd[25927]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.146.159.20,failed_login
+Apr 12 06:54:51 ip-10-77-20-248 sshd[25927]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 12 06:54:51 ip-10-77-20-248 sshd[25927]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.146.159.20,failed_login
+Apr 12 11:49:32 ip-10-77-20-248 sshd[26135]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=126.59.251.31  user=root,failed_login
+Apr 12 11:49:46 ip-10-77-20-248 sshd[26135]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 12 11:49:46 ip-10-77-20-248 sshd[26135]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=126.59.251.31  user=root,failed_login
+Apr 13 01:55:42 ip-10-77-20-248 sshd[26597]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.56.220,failed_login
+Apr 13 01:55:49 ip-10-77-20-248 sshd[26597]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.56.220,failed_login
+Apr 13 01:55:50 ip-10-77-20-248 sshd[26599]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.56.220,failed_login
+Apr 13 01:55:57 ip-10-77-20-248 sshd[26599]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.56.220,failed_login
+Apr 13 01:55:58 ip-10-77-20-248 sshd[26601]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.56.220  user=root,failed_login
+Apr 13 01:56:05 ip-10-77-20-248 sshd[26601]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.56.220  user=root,failed_login
+Apr 13 02:54:52 ip-10-77-20-248 sshd[26628]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.93.253.159,failed_login
+Apr 13 02:55:06 ip-10-77-20-248 sshd[26628]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 02:55:06 ip-10-77-20-248 sshd[26628]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.93.253.159,failed_login
+Apr 13 03:54:51 ip-10-77-20-248 sshd[26655]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=219.82.145.223  user=root,failed_login
+Apr 13 03:55:05 ip-10-77-20-248 sshd[26655]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 03:55:05 ip-10-77-20-248 sshd[26655]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=219.82.145.223  user=root,failed_login
+Apr 13 04:25:35 ip-10-77-20-248 sshd[26671]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218  user=root,failed_login
+Apr 13 04:25:37 ip-10-77-20-248 sshd[26673]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218  user=root,failed_login
+Apr 13 04:25:41 ip-10-77-20-248 sshd[26675]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218,failed_login
+Apr 13 04:25:46 ip-10-77-20-248 sshd[26671]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 04:25:46 ip-10-77-20-248 sshd[26671]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218  user=root,failed_login
+Apr 13 04:25:48 ip-10-77-20-248 sshd[26673]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 04:25:48 ip-10-77-20-248 sshd[26673]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218  user=root,failed_login
+Apr 13 04:25:49 ip-10-77-20-248 sshd[26677]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218,failed_login
+Apr 13 04:25:53 ip-10-77-20-248 sshd[26675]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 04:25:53 ip-10-77-20-248 sshd[26675]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218,failed_login
+Apr 13 04:26:01 ip-10-77-20-248 sshd[26677]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 04:26:01 ip-10-77-20-248 sshd[26677]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218,failed_login
+Apr 13 04:26:05 ip-10-77-20-248 sshd[26679]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218,failed_login
+Apr 13 04:26:17 ip-10-77-20-248 sshd[26679]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 04:26:17 ip-10-77-20-248 sshd[26679]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.163.61.218,failed_login
+Apr 13 07:23:16 ip-10-77-20-248 sshd[26895]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.54.210.101  user=root,failed_login
+Apr 13 07:23:17 ip-10-77-20-248 sshd[26897]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.54.210.101  user=root,failed_login
+Apr 13 07:23:29 ip-10-77-20-248 sshd[26895]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 07:23:29 ip-10-77-20-248 sshd[26895]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.54.210.101  user=root,failed_login
+Apr 13 07:23:29 ip-10-77-20-248 sshd[26897]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 07:23:29 ip-10-77-20-248 sshd[26897]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.54.210.101  user=root,failed_login
+Apr 13 11:42:20 ip-10-77-20-248 sshd[27021]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.101.221.33,failed_login
+Apr 13 11:42:32 ip-10-77-20-248 sshd[27021]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 11:42:32 ip-10-77-20-248 sshd[27021]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=105.101.221.33,failed_login
+Apr 13 19:31:19 ip-10-77-20-248 sshd[27636]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=37.110.24.51  user=root,failed_login
+Apr 13 19:31:31 ip-10-77-20-248 sshd[27636]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 13 19:31:31 ip-10-77-20-248 sshd[27636]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=37.110.24.51  user=root,failed_login
+Apr 14 01:05:02 ip-10-77-20-248 sshd[27799]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=116.255.253.137  user=root,failed_login
+Apr 14 01:05:40 ip-10-77-20-248 sshd[27799]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=116.255.253.137  user=root,failed_login
+Apr 14 04:15:23 ip-10-77-20-248 sshd[27887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.189.115,failed_login
+Apr 14 04:15:37 ip-10-77-20-248 sshd[27887]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 14 04:15:37 ip-10-77-20-248 sshd[27887]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.25.189.115,failed_login
+Apr 14 05:01:32 ip-10-77-20-248 sshd[27914]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.219.248.139,failed_login
+Apr 14 05:01:43 ip-10-77-20-248 sshd[27914]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 14 05:01:43 ip-10-77-20-248 sshd[27914]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.219.248.139,failed_login
+Apr 14 05:11:18 ip-10-77-20-248 sshd[27916]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=177.38.145.209,failed_login
+Apr 14 05:11:32 ip-10-77-20-248 sshd[27916]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 14 05:11:32 ip-10-77-20-248 sshd[27916]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=177.38.145.209,failed_login
+Apr 14 08:24:52 ip-10-77-20-248 sshd[28464]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=191.83.152.32  user=root,failed_login
+Apr 14 08:25:06 ip-10-77-20-248 sshd[28464]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 14 08:25:06 ip-10-77-20-248 sshd[28464]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=191.83.152.32  user=root,failed_login
+Apr 14 08:32:59 ip-10-77-20-248 sshd[28477]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=170.79.155.119  user=root,failed_login
+Apr 14 08:33:12 ip-10-77-20-248 sshd[28477]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 14 08:33:12 ip-10-77-20-248 sshd[28477]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=170.79.155.119  user=root,failed_login
+Apr 14 08:38:34 ip-10-77-20-248 sshd[28479]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=46.30.160.83,failed_login
+Apr 14 08:38:46 ip-10-77-20-248 sshd[28479]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 14 08:38:46 ip-10-77-20-248 sshd[28479]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=46.30.160.83,failed_login
+Apr 15 01:56:19 ip-10-77-20-248 sshd[29097]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.245.106  user=root,failed_login
+Apr 15 01:56:32 ip-10-77-20-248 sshd[29097]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 15 01:56:32 ip-10-77-20-248 sshd[29097]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.245.106  user=root,failed_login
+Apr 15 04:23:43 ip-10-77-20-248 sshd[29500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.211.173.182  user=root,failed_login
+Apr 15 04:23:56 ip-10-77-20-248 sshd[29500]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 15 04:23:56 ip-10-77-20-248 sshd[29500]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.211.173.182  user=root,failed_login
+Apr 15 23:19:18 ip-10-77-20-248 sshd[30302]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.144.136.83  user=root,failed_login
+Apr 15 23:19:30 ip-10-77-20-248 sshd[30302]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 15 23:19:30 ip-10-77-20-248 sshd[30302]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.144.136.83  user=root,failed_login
+Apr 16 03:45:23 ip-10-77-20-248 sshd[30440]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.189.205.173  user=root,failed_login
+Apr 16 03:45:36 ip-10-77-20-248 sshd[30440]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 16 03:45:36 ip-10-77-20-248 sshd[30440]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.189.205.173  user=root,failed_login
+Apr 16 06:15:08 ip-10-77-20-248 sshd[30503]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.23.26.185  user=root,failed_login
+Apr 16 06:15:21 ip-10-77-20-248 sshd[30503]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 16 06:15:21 ip-10-77-20-248 sshd[30503]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=181.23.26.185  user=root,failed_login
+Apr 16 16:19:03 ip-10-77-20-248 sshd[31317]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.27.216.125  user=root,failed_login
+Apr 16 16:19:15 ip-10-77-20-248 sshd[31317]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 16 16:19:15 ip-10-77-20-248 sshd[31317]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.27.216.125  user=root,failed_login
+Apr 16 20:18:35 ip-10-77-20-248 sshd[31433]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.208.151.103  user=root,failed_login
+Apr 16 20:18:48 ip-10-77-20-248 sshd[31433]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 16 20:18:48 ip-10-77-20-248 sshd[31433]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.208.151.103  user=root,failed_login
+Apr 16 21:17:12 ip-10-77-20-248 sshd[31519]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.193.140.203  user=root,failed_login
+Apr 16 21:17:26 ip-10-77-20-248 sshd[31519]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 16 21:17:26 ip-10-77-20-248 sshd[31519]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.193.140.203  user=root,failed_login
+Apr 16 22:09:18 ip-10-77-20-248 sshd[31543]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=182.243.85.75  user=root,failed_login
+Apr 16 22:09:30 ip-10-77-20-248 sshd[31543]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 16 22:09:30 ip-10-77-20-248 sshd[31543]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=182.243.85.75  user=root,failed_login
+Apr 16 22:50:06 ip-10-77-20-248 sshd[31570]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.174.116.31  user=root,failed_login
+Apr 16 22:50:19 ip-10-77-20-248 sshd[31570]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 16 22:50:19 ip-10-77-20-248 sshd[31570]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.174.116.31  user=root,failed_login
+Apr 17 14:13:42 ip-10-77-20-248 sshd[32475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.40.166.130,failed_login
+Apr 17 14:13:57 ip-10-77-20-248 sshd[32475]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 17 14:13:57 ip-10-77-20-248 sshd[32475]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.40.166.130,failed_login
+Apr 17 20:11:03 ip-10-77-20-248 sshd[32748]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.129.147.223  user=root,failed_login
+Apr 17 20:11:17 ip-10-77-20-248 sshd[32748]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 17 20:11:17 ip-10-77-20-248 sshd[32748]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.129.147.223  user=root,failed_login
+Apr 17 20:53:32 ip-10-77-20-248 sshd[32764]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=37.78.105.176  user=root,failed_login
+Apr 17 20:53:45 ip-10-77-20-248 sshd[32764]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 17 20:53:45 ip-10-77-20-248 sshd[32764]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=37.78.105.176  user=root,failed_login
+Apr 18 03:12:35 ip-10-77-20-248 sshd[1173]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.100.135.31  user=root,failed_login
+Apr 18 03:12:47 ip-10-77-20-248 sshd[1173]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 18 03:12:47 ip-10-77-20-248 sshd[1173]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.100.135.31  user=root,failed_login
+Apr 18 15:00:52 ip-10-77-20-248 sshd[1721]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=221.194.44.190  user=root,failed_login
+Apr 18 15:01:04 ip-10-77-20-248 sshd[1721]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=221.194.44.190  user=root,failed_login
+Apr 18 15:03:48 ip-10-77-20-248 sshd[1723]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=221.194.44.190  user=root,failed_login
+Apr 18 15:04:02 ip-10-77-20-248 sshd[1723]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=221.194.44.190  user=root,failed_login
+Apr 18 15:06:45 ip-10-77-20-248 sshd[1725]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=221.194.44.190  user=root,failed_login
+Apr 18 15:06:56 ip-10-77-20-248 sshd[1725]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=221.194.44.190  user=root,failed_login
+Apr 18 18:47:28 ip-10-77-20-248 sshd[1828]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.161.33.80  user=root,failed_login
+Apr 18 18:47:39 ip-10-77-20-248 sshd[1828]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 18 18:47:39 ip-10-77-20-248 sshd[1828]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.161.33.80  user=root,failed_login
+Apr 19 04:37:47 ip-10-77-20-248 sshd[2441]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.38.76.250,failed_login
+Apr 19 04:38:01 ip-10-77-20-248 sshd[2441]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 04:38:01 ip-10-77-20-248 sshd[2441]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=179.38.76.250,failed_login
+Apr 19 10:12:18 ip-10-77-20-248 sshd[2798]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.47.222.98  user=root,failed_login
+Apr 19 10:12:30 ip-10-77-20-248 sshd[2798]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 10:12:30 ip-10-77-20-248 sshd[2798]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=186.47.222.98  user=root,failed_login
+Apr 19 17:12:39 ip-10-77-20-248 sshd[3010]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 19 17:12:40 ip-10-77-20-248 sshd[3012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113,failed_login
+Apr 19 17:12:42 ip-10-77-20-248 sshd[3014]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 19 17:12:46 ip-10-77-20-248 sshd[3016]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 19 17:12:52 ip-10-77-20-248 sshd[3010]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 17:12:52 ip-10-77-20-248 sshd[3010]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 19 17:12:54 ip-10-77-20-248 sshd[3012]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 17:12:54 ip-10-77-20-248 sshd[3012]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113,failed_login
+Apr 19 17:12:54 ip-10-77-20-248 sshd[3018]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113,failed_login
+Apr 19 17:12:56 ip-10-77-20-248 sshd[3014]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 17:12:56 ip-10-77-20-248 sshd[3014]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 19 17:13:00 ip-10-77-20-248 sshd[3016]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 17:13:00 ip-10-77-20-248 sshd[3016]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 19 17:13:08 ip-10-77-20-248 sshd[3018]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 17:13:08 ip-10-77-20-248 sshd[3018]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113,failed_login
+Apr 19 17:13:10 ip-10-77-20-248 sshd[3020]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 19 17:13:24 ip-10-77-20-248 sshd[3020]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 19 17:13:24 ip-10-77-20-248 sshd[3020]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.178.81.113  user=root,failed_login
+Apr 20 03:06:37 ip-10-77-20-248 sshd[3356]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=68.182.39.76  user=root,failed_login
+Apr 20 03:06:50 ip-10-77-20-248 sshd[3356]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 20 03:06:50 ip-10-77-20-248 sshd[3356]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=68.182.39.76  user=root,failed_login
+Apr 20 13:50:49 ip-10-77-20-248 sshd[3806]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.5.240.60  user=root,failed_login
+Apr 20 13:51:02 ip-10-77-20-248 sshd[3806]: Disconnecting: Too many authentication failures [preauth],failed_login
+Apr 20 13:51:02 ip-10-77-20-248 sshd[3806]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.5.240.60  user=root,failed_login
+Mar 27 13:09:37 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-5.2.2-amd64.deb,privilege_escalation
+Mar 27 13:09:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:09:38 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:10:08 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-key add -,privilege_escalation
+Mar 27 13:10:08 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:10:09 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:10:14 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install apt-transport-https,privilege_escalation
+Mar 27 13:10:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:10:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:10:18 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tee -a /etc/apt/sources.list.d/elastic-5.x.list,privilege_escalation
+Mar 27 13:10:18 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:10:18 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:10:24 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update,privilege_escalation
+Mar 27 13:10:24 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:10:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:10:28 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install filebeat,privilege_escalation
+Mar 27 13:10:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:10:33 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:10:53 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/update-rc.d filebeat defaults 95 10,privilege_escalation
+Mar 27 13:10:53 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:10:53 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:11:31 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update,privilege_escalation
+Mar 27 13:11:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:11:33 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:11:34 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update,privilege_escalation
+Mar 27 13:11:34 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:11:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:11:35 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install packetbeat,privilege_escalation
+Mar 27 13:11:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:11:39 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:23:11 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/sbin/update-rc.d packetbeat defaults 95 10,privilege_escalation
+Mar 27 13:23:11 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:23:11 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:25:20 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/packetbeat/packetbeat.yml,privilege_escalation
+Mar 27 13:25:20 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:28:00 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:28:22 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/packetbeat/packetbeat.yml,privilege_escalation
+Mar 27 13:28:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:41:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:41:39 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/packetbeat/packetbeat.yml,privilege_escalation
+Mar 27 13:41:39 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:41:49 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:42:46 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/packetbeat/packetbeat.yml,privilege_escalation
+Mar 27 13:42:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:42:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:43:06 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/packetbeat/packetbeat.yml,privilege_escalation
+Mar 27 13:43:06 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:43:09 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:43:14 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/hostname,privilege_escalation
+Mar 27 13:43:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:43:18 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:43:21 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/hosts,privilege_escalation
+Mar 27 13:43:21 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:43:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:43:33 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/bin/hostname ip-10-77-20-248,privilege_escalation
+Mar 27 13:43:33 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:43:33 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:44:05 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/hostnamectl ip-10-77-20-248,privilege_escalation
+Mar 27 13:44:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:44:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:44:16 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/hostnamectl set-hostname ip-10-77-20-248,privilege_escalation
+Mar 27 13:44:16 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:44:16 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 13:44:29 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service packetbeat start,privilege_escalation
+Mar 27 13:44:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 13:44:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 15:49:20 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/dpkg -i filebeat-5.3.0-amd64.deb,privilege_escalation
+Mar 27 15:49:20 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 15:49:21 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:02:57 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:02:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:03:19 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:04:18 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:04:18 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:04:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:05:03 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=./filebeat -e -setup -modules=system -c /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:05:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:05:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:10:32 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:10:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:10:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:11:05 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:11:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:12:10 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:12:19 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:12:19 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:12:42 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:12:46 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:12:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:13:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:14:29 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:14:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:14:38 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:14:39 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:14:39 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:14:52 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:16:19 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:16:19 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:16:27 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:16:33 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/sbin/service filebeat start,privilege_escalation
+Mar 27 16:16:33 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:16:34 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:16:42 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Mar 27 16:16:42 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:17:24 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:17:29 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/sbin/service filebeat stop,privilege_escalation
+Mar 27 16:17:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:17:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:17:31 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/sbin/service filebeat start,privilege_escalation
+Mar 27 16:17:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:17:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:17:35 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Mar 27 16:17:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:29:06 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:29:09 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:29:09 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:30:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:31:03 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/sbin/service filebeat start,privilege_escalation
+Mar 27 16:31:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:31:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:31:07 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Mar 27 16:31:07 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:50:03 ip-10-77-20-248 sudo:     root : TTY=pts/0 ; PWD=/usr/share/filebeat/scripts ; USER=root ; COMMAND=/usr/bin/apt-get install zip,privilege_escalation
+Mar 27 16:50:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:50:12 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:51:21 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:53:45 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 16:53:45 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:53:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:54:49 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/share/filebeat/bin/filebeat -setup system,privilege_escalation
+Mar 27 16:54:49 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:54:49 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:55:03 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/share/filebeat/bin/filebeat -setup system -c filebeat.yml,privilege_escalation
+Mar 27 16:55:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:55:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:55:23 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/cp filebeat.template.json /usr/share/filebeat/bin/filebeat.template.json,privilege_escalation
+Mar 27 16:55:23 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:55:23 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:55:26 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/share/filebeat/bin/filebeat -setup system -c filebeat.yml,privilege_escalation
+Mar 27 16:55:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:55:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:55:56 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/cp filebeat.template-es2x.json /usr/share/filebeat/bin/,privilege_escalation
+Mar 27 16:55:56 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:55:56 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:56:00 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/share/filebeat/bin/filebeat -setup system -c filebeat.yml,privilege_escalation
+Mar 27 16:56:00 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:56:00 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:58:31 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup,privilege_escalation
+Mar 27 16:58:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:58:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:59:01 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/bin/rm filebeat.template-es2x.json filebeat.template.json,privilege_escalation
+Mar 27 16:59:01 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:59:01 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:59:27 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=./filebeat -e -modules=system -setup,privilege_escalation
+Mar 27 16:59:27 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:59:27 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 16:59:47 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup,privilege_escalation
+Mar 27 16:59:47 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 16:59:47 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:02:13 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://staging.elastic.co/5.3.0-d5b30bd7/downloads/beats/beats-dashboards/beats-dashboards-5.3.0.zip,privilege_escalation
+Mar 27 17:02:13 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:02:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:02:46 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 17:02:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:03:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:04:12 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 17:04:12 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:04:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:04:29 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://staging.elastic.co/5.3.0-d5b30bd7/downloads/beats/beats-dashboards/beats-dashboards-5.3.0.zip,privilege_escalation
+Mar 27 17:04:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:04:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:04:51 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/sbin/service filebeat stop,privilege_escalation
+Mar 27 17:04:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:04:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:04:53 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/sbin/service filebeat start,privilege_escalation
+Mar 27 17:04:53 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:04:53 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:09:26 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service filebeat stop,privilege_escalation
+Mar 27 17:09:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:09:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:10:15 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/bin/rm /var/lib/filebeat/registry,privilege_escalation
+Mar 27 17:10:15 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:10:15 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:12:43 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat/bin ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://staging.elastic.co/5.3.0-d5b30bd7/downloads/beats/beats-dashboards/beats-dashboards-5.3.0.zip,privilege_escalation
+Mar 27 17:12:43 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:15:41 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:26:46 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/dpkg -i filebeat-6.0.0-alpha1-SNAPSHOT-amd64.deb,privilege_escalation
+Mar 27 17:26:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:27:33 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:27:57 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/dpkg -i filebeat-6.0.0-alpha1-SNAPSHOT-amd64.deb,privilege_escalation
+Mar 27 17:27:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:28:02 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:28:40 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 27 17:28:40 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:29:15 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:31:29 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Mar 27 17:31:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:31:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:31:46 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/bin/chmod go-w /usr/share/filebeat/module/system/auth/manifest.yml,privilege_escalation
+Mar 27 17:31:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:31:46 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:31:48 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Mar 27 17:31:48 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:31:48 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:32:01 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/bin/chmod go-w /usr/share/filebeat/module/system/syslog/manifest.yml,privilege_escalation
+Mar 27 17:32:01 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:32:01 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 17:32:02 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Mar 27 17:32:02 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 17:32:04 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 18:07:20 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Mar 27 18:07:20 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 18:07:21 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 18:11:17 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Mar 27 18:11:17 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 18:11:19 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 18:11:31 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Mar 27 18:11:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 18:11:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 18:14:08 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat.sh -e -modules=system -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Mar 27 18:14:08 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 18:14:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 18:14:42 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/bin/rm /var/lib/filebeat/registry,privilege_escalation
+Mar 27 18:14:42 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 18:14:42 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 18:14:47 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/usr/sbin/service filebeat restart,privilege_escalation
+Mar 27 18:14:47 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 18:14:47 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 27 18:14:55 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/usr/share/filebeat ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Mar 27 18:14:55 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 27 20:29:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:03:31 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install metricbeat,privilege_escalation
+Mar 28 11:03:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:03:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:03:51 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/filebeat/filebeat.yml,privilege_escalation
+Mar 28 11:03:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:04:00 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:04:09 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/metricbeat/metricbeat.yml,privilege_escalation
+Mar 28 11:04:09 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:05:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:05:34 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/metricbeat/metricbeat.yml,privilege_escalation
+Mar 28 11:05:34 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:05:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:06:28 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service metricbeat start,privilege_escalation
+Mar 28 11:06:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:06:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:06:31 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Mar 28 11:06:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:23:08 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:24:52 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/cp metricbeat-5.2.2-darwin-x86_64/metricbeat /usr/local/bin/,privilege_escalation
+Mar 28 11:24:52 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:24:52 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:24:57 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/mkdir -p /etc/metricbeat,privilege_escalation
+Mar 28 11:24:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:24:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 11:27:38 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/tmp ; USER=root ; COMMAND=/bin/rm /usr/local/bin/metricbeat,privilege_escalation
+Mar 28 11:27:38 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 11:27:38 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 12:02:06 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install python3,privilege_escalation
+Mar 28 12:02:06 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 12:02:06 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 12:03:36 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install python-pip,privilege_escalation
+Mar 28 12:03:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 12:04:00 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:01:41 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config,privilege_escalation
+Mar 28 19:01:41 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:02:04 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:02:28 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service ssh restart,privilege_escalation
+Mar 28 19:02:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:02:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:13:37 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config,privilege_escalation
+Mar 28 19:13:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:13:43 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:13:44 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service ssh restart,privilege_escalation
+Mar 28 19:13:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:13:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:15:21 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service metricbeat stop,privilege_escalation
+Mar 28 19:15:21 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:15:21 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:15:52 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/metricbeat/metricbeat.yml,privilege_escalation
+Mar 28 19:15:52 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:16:08 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:16:14 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service metricbeat start,privilege_escalation
+Mar 28 19:16:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:16:15 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 28 19:16:27 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/metricbeat/metricbeat.yml,privilege_escalation
+Mar 28 19:16:27 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 28 19:16:47 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 10:36:43 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=./create_n_users.sh,privilege_escalation
+Mar 29 10:36:43 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 10:36:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 10:36:52 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=./create_n_users.sh,privilege_escalation
+Mar 29 10:36:52 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 10:36:53 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 10:37:34 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=./create_n_users.sh,privilege_escalation
+Mar 29 10:37:34 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 10:37:34 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 10:38:05 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=./create_n_users.sh,privilege_escalation
+Mar 29 10:38:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 10:38:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 10:42:02 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/ssh/sshd_config,privilege_escalation
+Mar 29 10:42:02 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 10:42:17 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 10:42:24 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/sbin/service sshd restart,privilege_escalation
+Mar 29 10:42:24 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 10:42:24 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 11:39:18 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Mar 29 11:39:18 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 11:44:38 ip-10-77-20-248 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service sshd restart,privilege_escalation
+Mar 29 11:44:38 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 11:44:38 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 11:45:36 ip-10-77-20-248 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service filebeat stop,privilege_escalation
+Mar 29 11:45:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 11:45:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 11:52:42 ip-10-77-20-248 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service filebeat start,privilege_escalation
+Mar 29 11:52:42 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 11:52:43 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 11:53:36 ip-10-77-20-248 sudo:     root : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service filebeat stop,privilege_escalation
+Mar 29 11:53:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 11:53:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 12:09:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 29 12:10:04 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/groupadd elastic_users,privilege_escalation
+Mar 29 12:10:04 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 29 12:10:04 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 30 13:06:28 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Mar 30 13:06:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 30 13:06:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 31 11:00:03 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/base,privilege_escalation
+Mar 31 11:00:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 31 11:00:17 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 31 11:00:22 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/sbin/resolvconf -u,privilege_escalation
+Mar 31 11:00:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 31 11:00:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Mar 31 11:34:22 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/hexdump,privilege_escalation
+Mar 31 11:34:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Mar 31 11:34:24 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:39:07 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/hosts,privilege_escalation
+Apr  3 10:39:07 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:39:20 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:40:10 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/hosts,privilege_escalation
+Apr  3 10:40:10 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:40:19 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:42:51 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/apt-get install Dnsmasq,privilege_escalation
+Apr  3 10:42:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:42:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:42:54 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/apt-get install dnsmasq,privilege_escalation
+Apr  3 10:42:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:42:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:49:39 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf,privilege_escalation
+Apr  3 10:49:39 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:49:52 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:50:53 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/dnsmasq.conf,privilege_escalation
+Apr  3 10:50:53 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:51:07 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:51:32 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/dnsmasq.conf,privilege_escalation
+Apr  3 10:51:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:51:55 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 10:52:08 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/sbin/service dnsmasq restart,privilege_escalation
+Apr  3 10:52:08 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 10:52:09 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:00:16 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf,privilege_escalation
+Apr  3 11:00:16 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:00:25 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:00:44 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf,privilege_escalation
+Apr  3 11:00:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:01:13 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:01:26 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/base,privilege_escalation
+Apr  3 11:01:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:01:36 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:01:44 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/base,privilege_escalation
+Apr  3 11:01:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:01:52 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:01:55 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head,privilege_escalation
+Apr  3 11:01:55 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:01:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:02:02 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/sbin/resolvconf -u,privilege_escalation
+Apr  3 11:02:02 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:02:02 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:02:05 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf,privilege_escalation
+Apr  3 11:02:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:02:19 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:02:28 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolv.conf,privilege_escalation
+Apr  3 11:02:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:02:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:04:24 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/head,privilege_escalation
+Apr  3 11:04:24 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 11:04:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 11:04:37 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/base,privilege_escalation
+Apr  3 11:04:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 12:24:30 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 12:32:41 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/apt-get remove dnsmasq,privilege_escalation
+Apr  3 12:32:41 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 12:32:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 12:33:11 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /etc/resolvconf/resolv.conf.d/base,privilege_escalation
+Apr  3 12:33:11 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 12:33:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  3 12:35:29 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/sbin/resolvconf -u,privilege_escalation
+Apr  3 12:35:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  3 12:35:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:42:10 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install auditd,privilege_escalation
+Apr  9 18:42:10 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:42:16 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:42:22 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service filebeat stop,privilege_escalation
+Apr  9 18:42:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:42:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:42:32 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/service metricbeat stop,privilege_escalation
+Apr  9 18:42:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:42:32 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:42:58 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt ; USER=root ; COMMAND=/bin/mkdir filebeat,privilege_escalation
+Apr  9 18:42:58 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:42:58 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:43:17 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt ; USER=root ; COMMAND=/bin/chown ubuntu:ubuntu filebeat/,privilege_escalation
+Apr  9 18:43:17 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:43:17 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:52:01 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim /etc/audit/auditd.conf,privilege_escalation
+Apr  9 18:52:01 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:52:07 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:52:14 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vi /var/log/audit/audit.log,privilege_escalation
+Apr  9 18:52:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:52:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:56:22 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vi /var/log/audit/audit.log,privilege_escalation
+Apr  9 18:56:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 18:59:09 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 18:59:11 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim /etc/audit/auditd.conf,privilege_escalation
+Apr  9 18:59:11 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:08:33 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 19:10:17 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim /etc/audit/audit.rules,privilege_escalation
+Apr  9 19:10:17 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:10:27 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 19:15:54 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/sbin/auditctl -l,privilege_escalation
+Apr  9 19:15:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:15:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+"Apr  9 19:17:35 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/sbin/auditctl -a task,always",privilege_escalation
+Apr  9 19:17:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:17:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 19:17:55 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/sbin/ausearch -i -sc execve,privilege_escalation
+Apr  9 19:17:55 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:17:56 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 19:18:03 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/sbin/auditctl -l,privilege_escalation
+Apr  9 19:18:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:18:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 19:18:36 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/tail /var/log/audit/audit.log,privilege_escalation
+Apr  9 19:18:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:18:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr  9 19:18:48 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/tail -10f /var/log/audit/audit.log,privilege_escalation
+Apr  9 19:18:48 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr  9 19:20:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:11:15 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/auditctl -l,privilege_escalation
+Apr 10 10:11:15 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:11:15 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:11:26 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/auditctl -D,privilege_escalation
+Apr 10 10:11:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:11:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:11:29 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/auditctl -l,privilege_escalation
+Apr 10 10:11:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:11:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:13:12 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /etc/grub.conf,privilege_escalation
+Apr 10 10:13:12 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:13:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:14:10 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Apr 10 10:14:10 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:35:17 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:35:41 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/bin/chown root filebeat.yml,privilege_escalation
+Apr 10 10:35:41 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:35:41 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:35:54 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd -setup,privilege_escalation
+Apr 10 10:35:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:35:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:36:22 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/bin/chown -R root /opt/filebeat/,privilege_escalation
+Apr 10 10:36:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:36:22 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:36:30 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd -setup,privilege_escalation
+Apr 10 10:36:30 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 10:36:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 10:37:13 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Apr 10 10:37:13 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:13:57 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:14:05 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:14:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:16:12 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:20:07 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:20:07 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:24:05 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:24:08 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd -setup -E dashboards.url=https://beats-nightlies.s3.amazonaws.com/dashboards/beats-dashboards-6.0.0-alpha1-SNAPSHOT.zip,privilege_escalation
+Apr 10 11:24:08 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:24:14 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:24:43 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:24:43 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:27:28 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:27:35 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:27:35 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:32:09 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -10f /var/log/audit/audit.log,privilege_escalation
+Apr 10 11:32:09 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:32:10 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:33:07 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64/filebeat.yml,privilege_escalation
+Apr 10 11:33:07 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:35:34 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:35:49 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/vim /opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64/filebeat.yml,privilege_escalation
+Apr 10 11:35:49 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:36:18 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:36:21 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:41:56 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:41:56 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:43:29 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:43:44 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/bin/su,privilege_escalation
+Apr 10 11:43:44 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:44:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:44:54 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:44:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:44:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:45:03 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:45:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:50:41 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:51:04 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/bin/ls /var/log/audit/,privilege_escalation
+Apr 10 11:51:04 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:51:04 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:51:11 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:51:11 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:51:27 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:51:31 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:51:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:53:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:53:40 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:53:40 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:53:40 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:53:45 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:53:45 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:53:53 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:53:54 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:53:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:53:54 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:53:58 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:53:58 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:54:49 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:54:50 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:54:50 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:54:50 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:55:03 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:55:03 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:55:24 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:55:25 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:55:25 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:55:26 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:55:27 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=/usr/bin/vim filebeat.yml,privilege_escalation
+Apr 10 11:55:27 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:56:23 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:56:25 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:56:25 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 11:56:31 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 11:56:37 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e -modules=auditd,privilege_escalation
+Apr 10 11:56:37 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 12:37:47 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/misc_scripts ; USER=root ; COMMAND=/usr/bin/vim /opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64/filebeat.yml,privilege_escalation
+Apr 10 12:37:47 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation
+Apr 10 12:59:47 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 14:11:51 ip-10-77-20-248 sudo: pam_unix(sudo:session): session closed for user root,privilege_escalation
+Apr 10 15:32:59 ip-10-77-20-248 sudo:   ubuntu : TTY=pts/0 ; PWD=/opt/filebeat/filebeat-6.0.0-alpha1-SNAPSHOT-linux-x86_64 ; USER=root ; COMMAND=./filebeat -e,privilege_escalation
+Apr 10 15:32:59 ip-10-77-20-248 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0),privilege_escalation

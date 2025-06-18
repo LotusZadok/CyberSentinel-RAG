@@ -1,13 +1,11 @@
+# DetectorAgent: analyzes a log file and detects anomalies or IOCs, exporting findings to CSV.
+
 from utils.log_parser import parse_log
 import re
 import csv
 
 class DetectorAgent:
     def analyze(self, log_file_path):
-        """
-        Analyze a log file and detect anomalies or IOCs.
-        Returns a list of suspicious findings.
-        """
         logs = parse_log(log_file_path)
         findings = []
         failed_login_pattern = re.compile(r"failed login|authentication failure", re.IGNORECASE)
@@ -27,7 +25,6 @@ class DetectorAgent:
             for ip, count in ip_fail_count.items():
                 if count >= 2:
                     findings.append({"type": "multiple_failed_logins", "ip": ip, "count": count})
-        # Additional patterns
         brute_force_pattern = re.compile(r"(too many failed attempts|brute force)", re.IGNORECASE)
         privilege_escalation_pattern = re.compile(r"sudo|root access granted|privilege escalation", re.IGNORECASE)
         malware_pattern = re.compile(r"malware|trojan|virus|worm|ransomware", re.IGNORECASE)
@@ -38,7 +35,6 @@ class DetectorAgent:
                 findings.append({"type": "privilege_escalation", "entry": entry})
             if malware_pattern.search(str(entry)):
                 findings.append({"type": "malware_detected", "entry": entry})
-        # Export findings to CSV
         output_path = log_file_path + "_findings.csv"
         if findings:
             with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:

