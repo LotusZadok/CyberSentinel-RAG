@@ -140,4 +140,19 @@ If you encounter issues during installation:
 
 ---
 
+## LangChain & LangGraph Orchestration
+
+This project leverages [LangChain](https://python.langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/) to orchestrate and enhance the multi-agent pipeline:
+
+- **LangChain** is used to integrate Large Language Models (LLMs) for advanced query generation and context enrichment, especially within the `ContextAgent`.
+- **LangGraph** is used to define and manage the pipeline as a directed graph, where each agent (Detector, Context, Response) is a node, allowing for flexible and extensible orchestration of the analysis workflow.
+
+### How it works
+
+- The pipeline is defined as a graph: `DetectorAgent → ContextAgent → ResponseAgent`.
+- LangChain enables the use of LLMs (e.g., OpenAI GPT) to generate more relevant queries for context retrieval and to enhance the quality of the analysis.
+- LangGraph manages the execution flow, making it easy to add, remove, or modify steps in the pipeline.
+
+---
+
 Questions or suggestions? Contributions and feedback are welcome!

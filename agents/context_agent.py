@@ -8,10 +8,32 @@ import time
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(project_root)
 from utils.query_kb import search_knowledge_base
+from langchain_openai import OpenAI
+from langchain.prompts import PromptTemplate
 
 class ContextAgent:
     def __init__(self, vector_store_path: str = "data/vector_store"):
         self.vector_store_path = vector_store_path
+        # Inicializa el LLM de LangChain usando la API key de OpenAI
+        self.llm = OpenAI(openai_api_key=os.getenv("OPENAI_API_KEY"), temperature=0.2)
+        self.query_prompt = PromptTemplate(
+            input_variables=["finding_type", "ip", "count", "entry"],
+            template=(
+                "Given a security finding with the following data: "
+                "type: {finding_type}, IP: {ip}, count: {count}, entry: {entry}. "
+                "Generate a concise and relevant query to search for context in a cybersecurity knowledge base."
+            )
+        )
+
+    def generate_query(self, finding: Dict[str, Any]) -> str:
+        prompt = self.query_prompt.format(
+            finding_type=finding.get('type', ''),
+            ip=finding.get('ip', ''),
+            count=finding.get('count', ''),
+            entry=finding.get('entry', '')
+        )
+        query = self.llm.invoke(prompt)
+        return query.strip()
 
     def provide_context(self, query: str) -> List[Dict[str, Any]]:
         print(f"[ContextAgent] Searching context for: '{query}'")
@@ -30,16 +52,7 @@ class ContextAgent:
         } for doc, meta, score in context_results]
 
     def enrich_finding(self, finding: Dict[str, Any]) -> Dict[str, Any]:
-        query_parts = []
-        if finding.get('type'):
-            query_parts.append(finding['type'].replace('_', ' '))
-        if finding.get('ip'):
-            query_parts.append(f"from IP {finding['ip']}")
-        if finding.get('count'):
-            query_parts.append(f"multiple attempts ({finding['count']} times)")
-        if finding.get('entry'):
-            query_parts.append(finding['entry'])
-        query = ' '.join(query_parts)
+        query = self.generate_query(finding)
         enriched = finding.copy()
         enriched['context'] = self.provide_context(query)
         return enriched
@@ -49,16 +62,7 @@ class ContextAgent:
         start = time.time()
         query_to_findings = {}
         for finding in findings[:max_enrich]:
-            query_parts = []
-            if finding.get('type'):
-                query_parts.append(finding['type'].replace('_', ' '))
-            if finding.get('ip'):
-                query_parts.append(f"from IP {finding['ip']}")
-            if finding.get('count'):
-                query_parts.append(f"multiple attempts ({finding['count']} times)")
-            if finding.get('entry'):
-                query_parts.append(finding['entry'])
-            query = ' '.join(query_parts)
+            query = self.generate_query(finding)
             if query not in query_to_findings:
                 query_to_findings[query] = []
             query_to_findings[query].append(finding)

@@ -15,3 +15,8 @@ python-dotenv
 
 # Progress bars
 tqdm
+
+# LLM and AI frameworks
+langchain
+langgraph
+langchain-openai
