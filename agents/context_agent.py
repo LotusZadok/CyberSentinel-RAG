@@ -14,7 +14,7 @@ from langchain.prompts import PromptTemplate
 class ContextAgent:
     def __init__(self, vector_store_path: str = "data/vector_store"):
         self.vector_store_path = vector_store_path
-        # Inicializa el LLM de LangChain usando la API key de OpenAI
+        # Initializes the LangChain LLM using the OpenAI API key
         self.llm = OpenAI(openai_api_key=os.getenv("OPENAI_API_KEY"), temperature=0.2)
         self.query_prompt = PromptTemplate(
             input_variables=["finding_type", "ip", "count", "entry"],
@@ -73,17 +73,23 @@ class ContextAgent:
         for query, findings_group in query_to_findings.items():
             for finding in findings_group:
                 enriched_finding = finding.copy()
+                # add the relevant context found for this query to the finding
+                # this allows each finding to have contextualized information for further analysis
                 enriched_finding['context'] = query_context_cache[query]
                 enriched.append(enriched_finding)
         elapsed = time.time() - start
+        # print the total enrichment time for performance monitoring
         print(f"[ContextAgent] Total time to enrich findings (grouped): {elapsed:.2f} seconds")
         if len(findings) > max_enrich:
+            # warn if not all findings were enriched due to performance/config limits
             print(f"[ContextAgent] Only the first {max_enrich} findings were enriched. The rest are returned without context.")
             for finding in findings[max_enrich:]:
+                # findings outside the limit are returned without additional context
                 enriched.append(finding)
         return enriched
 
 if __name__ == "__main__":
+    # this block allows testing the context agent in isolation with sample findings
     test_findings = [
         {
             "type": "multiple_failed_logins",
@@ -97,6 +103,7 @@ if __name__ == "__main__":
         }
     ]
     agent = ContextAgent()
+    # process the test findings to verify enrichment logic
     enriched_findings = agent.process_findings(test_findings)
     for finding in enriched_findings:
         print("\nFinding:", finding['type'])
@@ -105,6 +112,7 @@ if __name__ == "__main__":
         if 'count' in finding:
             print(f"Count: {finding['count']}")
         print("\nContext found:")
+        # print the context found for each finding to facilitate debugging and validation
         for ctx in finding['context']:
             print(f"\nSource: {ctx['source']}")
             print(f"Score: {ctx['relevance_score']:.4f}")

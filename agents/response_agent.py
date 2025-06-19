@@ -12,16 +12,20 @@ sys.path.append(project_root)
 
 class ResponseAgent:
     def __init__(self, model="gpt-3.5-turbo"):
+        # load environment variables from .env file for api key management
         load_dotenv()
         api_key = os.getenv('OPENAI_API_KEY')
+        # ensure the api key is present and valid before proceeding
         if not api_key:
             raise ValueError("OPENAI_API_KEY not found in environment variables")
         if not api_key.startswith('sk-'):
             raise ValueError("OPENAI_API_KEY does not have the correct format (should start with 'sk-')")
         self.model = model
+        # initialize the openai client with the provided api key
         self.client = openai.OpenAI(api_key=api_key.strip())
 
     def _create_prompt(self, findings: List[Dict[str, Any]]) -> str:
+        # build a detailed prompt for the llm, including all findings and relevant context
         prompt_parts = [
             "As a cybersecurity expert, analyze the following findings and provide:",
             "1. A summary of the situation",
@@ -41,11 +45,13 @@ class ResponseAgent:
             if 'context' in finding:
                 prompt_parts.append("\nRelevant context:")
                 for ctx in finding['context']:
+                    # only include context with high relevance (score < 1.0)
                     if ctx['relevance_score'] < 1.0:
                         prompt_parts.append(f"- {ctx['description'][:200]}...")
         return "\n".join(prompt_parts)
 
     def suggest_action(self, findings: List[Dict[str, Any]]) -> Dict[str, Any]:
+        # generate the prompt and send it to the llm for expert analysis
         prompt = self._create_prompt(findings)
         try:
             response = self.client.chat.completions.create(
@@ -62,6 +68,7 @@ class ResponseAgent:
                 temperature=0.7,
                 max_tokens=1000
             )
+            # extract the analysis from the llm response
             analysis = response.choices[0].message.content.strip()
             response_data = {
                 "timestamp": datetime.now().isoformat(),
@@ -71,6 +78,7 @@ class ResponseAgent:
             }
             return response_data
         except Exception as e:
+            # handle errors gracefully and return error info for debugging
             return {
                 "error": str(e),
                 "timestamp": datetime.now().isoformat(),
@@ -78,6 +86,7 @@ class ResponseAgent:
             }
 
 if __name__ == "__main__":
+    # this block allows standalone testing of the response agent with sample findings
     test_findings = [
         {
             "type": "multiple_failed_logins",
@@ -94,6 +103,7 @@ if __name__ == "__main__":
     ]
     try:
         agent = ResponseAgent()
+        # run the analysis and print the result for validation
         response = agent.suggest_action(test_findings)
         print("\nAnalysis Response:")
         print("=" * 80)
