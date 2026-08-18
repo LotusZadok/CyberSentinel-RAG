@@ -200,9 +200,8 @@ venv/
 # Ignore vector database
 /data/vector_store/
 
-# Ignore logs and findings (optional, uncomment if needed)
-# /data/logs/*.csv
-# /data/logs/*.txt_findings.csv
+# Ignore DetectorAgent output artifacts (generated, not source data)
+data/logs/*_findings.csv
 
 # The blanket *.log rule above would hide the committed sample log too.
 # User-supplied logs stay ignored; only the synthetic sample is tracked.
