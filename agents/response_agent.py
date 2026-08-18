@@ -1,75 +1,127 @@
-# ResponseAgent: generates expert responses and recommendations based on findings and context using GPT.
+# ResponseAgent: generates expert responses and recommendations based on findings and context using a local Ollama model.
 
 import os
 import sys
 from typing import List, Dict, Any
+from collections import OrderedDict
 from datetime import datetime
-from dotenv import load_dotenv
-import openai
+from langchain_ollama import ChatOllama
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(project_root)
 
+# local model served by ollama; never left implicit
+OLLAMA_MODEL = "llama3.1:8b"
+OLLAMA_NUM_CTX = 8192
+OLLAMA_MAX_TOKENS = 1000
+
+SYSTEM_PROMPT = (
+    "You are a cybersecurity analyst. "
+    "Provide concise but complete analysis. "
+    "Use a professional and direct tone. "
+    "Prioritize concrete actions and specific recommendations. "
+    "You distinguish rigorously between what was observed on the host and background "
+    "reference material. You never present reference material as something that happened."
+)
+
 class ResponseAgent:
-    def __init__(self, model="gpt-3.5-turbo"):
-        # load environment variables from .env file for api key management
-        load_dotenv()
-        api_key = os.getenv('OPENAI_API_KEY')
-        # ensure the api key is present and valid before proceeding
-        if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in environment variables")
-        if not api_key.startswith('sk-'):
-            raise ValueError("OPENAI_API_KEY does not have the correct format (should start with 'sk-')")
+    def __init__(self, model: str = OLLAMA_MODEL):
         self.model = model
-        # initialize the openai client with the provided api key
-        self.client = openai.OpenAI(api_key=api_key.strip())
+        # local inference: no api key, no external service
+        self.client = ChatOllama(
+            model=model,
+            temperature=0.2,
+            num_ctx=OLLAMA_NUM_CTX,
+            num_predict=OLLAMA_MAX_TOKENS,
+        )
 
     def _create_prompt(self, findings: List[Dict[str, Any]]) -> str:
-        # build a detailed prompt for the llm, including all findings and relevant context
-        prompt_parts = [
-            "As a cybersecurity expert, analyze the following findings and provide:",
+        # Two labelled blocks. Observed findings are the only established facts; retrieved
+        # documents are consultation material that may not apply to this incident at all.
+        # Merging them is what made earlier reports assert malware that was never in the log.
+        parts = [
+            "As a cybersecurity expert, analyze the incident below and provide:",
             "1. A summary of the situation",
             "2. Severity level (LOW, MEDIUM, HIGH, CRITICAL)",
             "3. Possible implications",
             "4. Specific and actionable recommendations",
-            "\nDetected findings:\n"
+            "",
+            "=== OBSERVED FINDINGS ===",
+            "These are the ONLY established facts about this incident. They were produced by",
+            "automated analysis of this host's own logs. Every statement you make about what",
+            "happened must be traceable to this block.",
+            "",
         ]
-        for finding in findings:
-            prompt_parts.append(f"\nType: {finding['type']}")
+        for i, finding in enumerate(findings, 1):
+            parts.append(f"[F{i}] Type: {finding['type']}")
             if 'ip' in finding:
-                prompt_parts.append(f"IP: {finding['ip']}")
+                parts.append(f"      IP: {finding['ip']}")
             if 'count' in finding:
-                prompt_parts.append(f"Count: {finding['count']}")
+                parts.append(f"      Count: {finding['count']}")
             if 'entry' in finding:
-                prompt_parts.append(f"Detail: {finding['entry']}")
-            if 'context' in finding:
-                prompt_parts.append("\nRelevant context:")
-                for ctx in finding['context']:
-                    # only include context with high relevance (score < 1.0)
-                    if ctx['relevance_score'] < 1.0:
-                        prompt_parts.append(f"- {ctx['description'][:200]}...")
-        return "\n".join(prompt_parts)
+                parts.append(f"      Log line: {finding['entry']}")
+
+        parts += [
+            "",
+            "=== REFERENCE MATERIAL ===",
+            "The entries below were pulled from a knowledge base of MITRE ATT&CK techniques,",
+            "CAPEC attack patterns and CVE records by similarity search. They describe attacks",
+            "observed ELSEWHERE IN THE WORLD. They are background consultation material only.",
+            "They are NOT evidence about this incident and may not apply to it at all.",
+            "",
+        ]
+        # deduplicated globally: the same documents are attached to many findings, and
+        # repeating them per finding roughly doubled the prompt for no added information
+        seen = OrderedDict()
+        for finding in findings:
+            for ctx in finding.get('context') or []:
+                # only include context with high relevance (score < 1.0)
+                if ctx['relevance_score'] >= 1.0:
+                    continue
+                key = (ctx.get('source'), ctx.get('external_id', ''), ctx['description'][:60])
+                if key not in seen:
+                    seen[key] = ctx
+        for j, ctx in enumerate(seen.values(), 1):
+            tag = ctx.get('source', '')
+            if ctx.get('external_id'):
+                tag = f"{tag} / {ctx['external_id']}"
+            parts.append(f"[R{j}] ({tag}) {ctx['description']}")
+
+        parts += [
+            "",
+            "=== RULES ===",
+            "- Never state that anything from REFERENCE MATERIAL occurred, was detected, or was",
+            "  present on this host.",
+            "- Do not name any specific malware family, threat actor, campaign or CVE as being",
+            "  involved in this incident unless that name appears in OBSERVED FINDINGS.",
+            "- You may cite a technique, pattern or CVE from REFERENCE MATERIAL only as a POSSIBLE",
+            "  correspondence, and only with explicit hedging such as \"may correspond to\",",
+            "  \"is consistent with\" or \"resembles\".",
+            "- Cite at least one MITRE ATT&CK technique or CAPEC pattern from REFERENCE MATERIAL",
+            "  as a possible correspondence for the observed findings, using its identifier and",
+            "  explicit hedging. If none of the reference material fits, say so explicitly instead.",
+            "- If the reference material does not fit the observed findings, ignore it and say so.",
+            "- Base the severity level on the observed findings alone.",
+            "  Severity scale, based on OBSERVED FINDINGS only:",
+            "  LOW: isolated failed authentication, no escalation, no malware.",
+            "  MEDIUM: repeated failed authentication or suspicious source addresses, without",
+            "  successful escalation or malware.",
+            "  HIGH: successful privilege escalation, OR malware detected, OR access to",
+            "  credential stores.",
+            "  CRITICAL: two or more of the HIGH conditions on the same host.",
+        ]
+        return "\n".join(parts)
 
     def suggest_action(self, findings: List[Dict[str, Any]]) -> Dict[str, Any]:
         # generate the prompt and send it to the llm for expert analysis
         prompt = self._create_prompt(findings)
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": (
-                        "You are a cybersecurity analyst. "
-                        "Provide concise but complete analysis. "
-                        "Use a professional and direct tone. "
-                        "Prioritize concrete actions and specific recommendations."
-                    )},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.7,
-                max_tokens=1000
-            )
+            response = self.client.invoke([
+                ("system", SYSTEM_PROMPT),
+                ("human", prompt),
+            ])
             # extract the analysis from the llm response
-            analysis = response.choices[0].message.content.strip()
+            analysis = response.content.strip()
             response_data = {
                 "timestamp": datetime.now().isoformat(),
                 "raw_analysis": analysis,
@@ -95,6 +147,7 @@ if __name__ == "__main__":
             "context": [
                 {
                     "source": "stix-capec.json",
+                    "external_id": "CAPEC-112",
                     "relevance_score": 0.8,
                     "description": "This attack pattern involves repeated unauthorized access attempts..."
                 }
@@ -110,11 +163,11 @@ if __name__ == "__main__":
         print(f"Timestamp: {response['timestamp']}")
         if 'error' in response:
             print(f"Error: {response['error']}")
-            print("\nMake sure the OPENAI_API_KEY environment variable is set correctly.")
+            print("\nMake sure the Ollama server is running and llama3.1:8b has been pulled.")
         else:
             print(f"Model used: {response['model_used']}")
             print("\nAnalysis:\n")
             print(response['raw_analysis'])
     except Exception as e:
         print(f"Initialization error: {e}")
-        print("\nMake sure the OPENAI_API_KEY environment variable is set correctly.")
+        print("\nMake sure the Ollama server is running and llama3.1:8b has been pulled.")
