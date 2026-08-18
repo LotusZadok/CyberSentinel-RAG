@@ -6,6 +6,7 @@ from typing import List, Dict, Any
 from collections import OrderedDict
 from datetime import datetime
 from langchain_ollama import ChatOllama
+from agents.triage_agent import format_findings
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(project_root)
@@ -38,35 +39,35 @@ class ResponseAgent:
             seed=OLLAMA_SEED,
         )
 
-    def _create_prompt(self, findings: List[Dict[str, Any]]) -> str:
+    def _create_prompt(self, findings: List[Dict[str, Any]], triage: Dict[str, Any]) -> str:
         # observed findings are the only established facts; retrieved documents are
         # consultation material. merging both blocks is what made earlier reports
         # assert malware that was never in the log.
         parts = [
-            "As a cybersecurity expert, analyze the incident below and provide:",
+            "As a cybersecurity expert, write a report on the incident below with these sections:",
             "1. A summary of the situation",
-            "2. Severity conditions: walk the HIGH conditions of the severity scale one by one,",
-            "   state for each whether it is present in OBSERVED FINDINGS, and quote the [F] item",
-            "   that satisfies it",
-            "3. Severity level (LOW, MEDIUM, HIGH, CRITICAL), derived by counting the conditions",
-            "   you marked present in section 2",
-            "4. Possible implications",
-            "5. Specific and actionable recommendations",
+            "2. Severity: reproduce the level and the condition lines from SEVERITY ASSESSMENT",
+            "3. Possible implications",
+            "4. Specific and actionable recommendations",
+            "5. Possible correspondence with reference material: cite at least one MITRE ATT&CK",
+            "   technique or CAPEC pattern from REFERENCE MATERIAL, with its identifier and",
+            "   explicit hedging",
             "",
             "=== OBSERVED FINDINGS ===",
             "These are the ONLY established facts about this incident. They were produced by",
             "automated analysis of this host's own logs. Every statement you make about what",
             "happened must be traceable to this block.",
             "",
+            format_findings(findings),
+            "",
+            "=== SEVERITY ASSESSMENT ===",
+            "Already decided by a separate triage step. Reproduce it as section 2 of your report.",
+            "",
+            f"Level: {triage.get('level')}",
+            f"HIGH conditions found: {triage.get('count')}",
         ]
-        for i, finding in enumerate(findings, 1):
-            parts.append(f"[F{i}] Type: {finding['type']}")
-            if 'ip' in finding:
-                parts.append(f"      IP: {finding['ip']}")
-            if 'count' in finding:
-                parts.append(f"      Count: {finding['count']}")
-            if 'entry' in finding:
-                parts.append(f"      Log line: {finding['entry']}")
+        for line in triage.get('conditions') or []:
+            parts.append(line)
 
         parts += [
             "",
@@ -104,27 +105,17 @@ class ResponseAgent:
             "- You may cite a technique, pattern or CVE from REFERENCE MATERIAL only as a POSSIBLE",
             "  correspondence, and only with explicit hedging such as \"may correspond to\",",
             "  \"is consistent with\" or \"resembles\".",
-            "- Cite at least one MITRE ATT&CK technique or CAPEC pattern from REFERENCE MATERIAL",
-            "  as a possible correspondence for the observed findings, using its identifier and",
-            "  explicit hedging. If none of the reference material fits, say so explicitly instead.",
-            "- If the reference material does not fit the observed findings, ignore it and say so.",
-            "- Base the severity level on the observed findings alone.",
-            "  Severity scale, based on OBSERVED FINDINGS only:",
-            "  LOW: isolated failed authentication, no escalation, no malware.",
-            "  MEDIUM: repeated failed authentication or suspicious source addresses, without",
-            "  successful escalation or malware.",
-            "  HIGH: successful privilege escalation, OR malware detected, OR access to",
-            "  credential stores.",
-            "  CRITICAL: two or more of the HIGH conditions on the same host.",
-            "- Do not state the severity level before the \"Severity conditions\" section. Every",
-            "  condition marked present there must name the [F] item that satisfies it, and the",
-            "  level must follow from how many you marked present, not from overall impression.",
+            "- Section 5 is mandatory: at least one ATT&CK technique or CAPEC pattern from",
+            "  REFERENCE MATERIAL, named by identifier, as a possible correspondence. If none of",
+            "  the reference material fits, say so explicitly instead.",
+            "- The severity level and the condition lines are settled. Copy them as given. Do not",
+            "  recompute them, question them, or argue for a different level anywhere in the report.",
         ]
         return "\n".join(parts)
 
-    def suggest_action(self, findings: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def suggest_action(self, findings: List[Dict[str, Any]], triage: Dict[str, Any]) -> Dict[str, Any]:
         # generate the prompt and send it to the llm for expert analysis
-        prompt = self._create_prompt(findings)
+        prompt = self._create_prompt(findings, triage)
         try:
             response = self.client.invoke([
                 ("system", SYSTEM_PROMPT),
@@ -164,10 +155,19 @@ if __name__ == "__main__":
             ]
         }
     ]
+    test_triage = {
+        "level": "MEDIUM",
+        "count": 0,
+        "conditions": [
+            "CONDITION: successful privilege escalation | ABSENT |  | ",
+            "CONDITION: malware detected | ABSENT |  | ",
+            "CONDITION: access to credential stores | ABSENT |  | ",
+        ],
+    }
     try:
         agent = ResponseAgent()
         # run the analysis and print the result for validation
-        response = agent.suggest_action(test_findings)
+        response = agent.suggest_action(test_findings, test_triage)
         print("\nAnalysis Response:")
         print("=" * 80)
         print(f"Timestamp: {response['timestamp']}")
