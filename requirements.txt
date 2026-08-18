@@ -1,11 +1,9 @@
 # requirements.txt
 
-# Data processing and visualization
+# Data processing
 pandas
-plotly
 
 # Vector database and embeddings
-faiss-cpu
 chromadb
 sentence-transformers
 

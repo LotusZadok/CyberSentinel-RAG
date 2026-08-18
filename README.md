@@ -117,13 +117,11 @@ The CLI allows you to:
 ```
 CyberSentinel-RAG/
 ├── agents/              # System agents
-├── config/              # Configurations
 ├── data/                # Data and knowledge base
 │   ├── knowledge_base/
 │   ├── logs/
 │   └── vector_store/
 ├── diagrams/            # Project diagrams
-├── notebooks/           # Jupyter notebooks
 ├── utils/               # Utilities
 └── requirements.txt     # Project dependencies
 ```
