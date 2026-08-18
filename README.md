@@ -10,7 +10,7 @@ Multi-agent system for automated cybersecurity incident analysis and response us
 
 ## Inteligencia Artificial
 
-Authors: Emanuel Rodríguez Oviedo y Sebastián Granados Artavia
+Author: Sebastián Granados Artavia
 Professor: Kenneth Obando Rodríguez
 
 ## Installation & Setup
