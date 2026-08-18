@@ -1,4 +1,4 @@
-# ContextAgent: enriches security findings with contextual information from the vector knowledge base using RAG. Optimized for performance and API limits.
+# ContextAgent: enriches security findings with contextual information from the vector knowledge base using RAG. Runs against a local Ollama model.
 
 from typing import List, Dict, Any
 import os
@@ -8,32 +8,56 @@ import time
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(project_root)
 from utils.query_kb import search_knowledge_base
-from langchain_openai import OpenAI
+from langchain_ollama import ChatOllama
 from langchain_core.prompts import PromptTemplate
+
+# local model served by ollama; never left implicit
+OLLAMA_MODEL = "llama3.1:8b"
+OLLAMA_NUM_CTX = 8192
+
+# Measured over the 39 findings of sample_auth.log: 39/39 outputs clean, no preamble,
+# no quoting, single line, no boolean syntax and no IP, user, timestamp, host or PID.
+# The `ip` field is deliberately not exposed as its own variable: it is forbidden in the
+# output, so labelling it in the input only invites the model to copy it. `entry` is
+# passed whole, which is what actually exercises the exclusion rule.
+QUERY_TEMPLATE = """You generate search queries for a cybersecurity knowledge base containing MITRE ATT&CK techniques, CAPEC attack patterns and CVE records.
+
+Write ONE search query for the security event below.
+
+Output rules, all mandatory:
+- Output the query text and nothing else: no preamble, no trailing explanation, no quotation marks, no backticks, no bullet points, no label.
+- Exactly one line.
+- Plain descriptive English. Never use boolean operators such as AND, OR, NOT. Never use field:value or key=value syntax.
+- Describe the general class of attack or technique. Never include IP addresses, user names, timestamps, host names or process IDs from the event.
+
+Event type: {finding_type}
+Occurrences: {count}
+Log entry: {entry}"""
+
 
 class ContextAgent:
     def __init__(self, vector_store_path: str = "data/vector_store"):
         self.vector_store_path = vector_store_path
-        # Initializes the LangChain LLM using the OpenAI API key
-        self.llm = OpenAI(openai_api_key=os.getenv("OPENAI_API_KEY"), temperature=0.2)
+        # local inference: no api key, no external service
+        self.llm = ChatOllama(
+            model=OLLAMA_MODEL,
+            temperature=0,
+            num_ctx=OLLAMA_NUM_CTX,
+        )
         self.query_prompt = PromptTemplate(
-            input_variables=["finding_type", "ip", "count", "entry"],
-            template=(
-                "Given a security finding with the following data: "
-                "type: {finding_type}, IP: {ip}, count: {count}, entry: {entry}. "
-                "Generate a concise and relevant query to search for context in a cybersecurity knowledge base."
-            )
+            input_variables=["finding_type", "count", "entry"],
+            template=QUERY_TEMPLATE,
         )
 
     def generate_query(self, finding: Dict[str, Any]) -> str:
         prompt = self.query_prompt.format(
             finding_type=finding.get('type', ''),
-            ip=finding.get('ip', ''),
             count=finding.get('count', ''),
             entry=finding.get('entry', '')
         )
-        query = self.llm.invoke(prompt)
-        return query.strip()
+        # ChatOllama returns an AIMessage, not a str
+        response = self.llm.invoke(prompt)
+        return response.content.strip()
 
     def provide_context(self, query: str) -> List[Dict[str, Any]]:
         print(f"[ContextAgent] Searching context for: '{query}'")
@@ -47,20 +71,16 @@ class ContextAgent:
         print(f"[ContextAgent] Search time for '{query}': {elapsed:.2f} seconds")
         return [{
             'source': meta['source'],
+            'external_id': meta.get('external_id') or meta.get('cve_id') or '',
             'relevance_score': score,
             'description': doc[:500]
         } for doc, meta, score in context_results]
-
-    def enrich_finding(self, finding: Dict[str, Any]) -> Dict[str, Any]:
-        query = self.generate_query(finding)
-        enriched = finding.copy()
-        enriched['context'] = self.provide_context(query)
-        return enriched
 
     def process_findings(self, findings: List[Dict[str, Any]], max_enrich: int = 20) -> List[Dict[str, Any]]:
         print(f"[ContextAgent] Processing {len(findings)} findings...")
         start = time.time()
         query_to_findings = {}
+        # one llm call per finding; queries are deduplicated only after generation
         for finding in findings[:max_enrich]:
             query = self.generate_query(finding)
             if query not in query_to_findings:

@@ -9,6 +9,12 @@ from typing import List, Tuple, Dict, Any
 def get_embedder():
     return embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
 
+# STIX objects describing named entities: specific malware families, tools, threat groups
+# and campaigns. They pull retrieval towards "which known actor is this" answers, which the
+# report then restates as if observed. Documents with no stix_type at all (NVD, KEV) are
+# unaffected by $nin and stay in the candidate set.
+EXCLUDED_STIX_TYPES = ["malware", "tool", "intrusion-set", "campaign"]
+
 # Performs a semantic search in the vector knowledge base using the provided query.
 # Returns a list of (document, metadata, score) tuples for downstream use.
 def search_knowledge_base(
@@ -25,7 +31,8 @@ def search_knowledge_base(
         return []
     results = collection.query(
         query_texts=[query],
-        n_results=n_results
+        n_results=n_results,
+        where={"stix_type": {"$nin": EXCLUDED_STIX_TYPES}}
     )
     # Extract documents, metadata, and similarity scores from the query result.
     docs = results.get("documents", [[]])[0]
