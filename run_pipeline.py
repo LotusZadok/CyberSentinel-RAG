@@ -84,6 +84,11 @@ if __name__ == "__main__":
     enriched_findings = result.get("enriched_findings", [])
     if len(enriched_findings) > 20:
         print(f"[pipeline] only the 20 most relevant enriched findings will be sent to the responseagent to avoid token limit errors.")
+    # a run that gets this far without a report is a failure, not a success:
+    # exiting 0 here is what hid the state bug that discarded a generated report
+    if not result.get("report"):
+        print("[pipeline] error: the graph finished without producing a report.", file=sys.stderr)
+        sys.exit(1)
     report = result.get("report", {})
     print("\n=== final report ===")
     print(f"timestamp: {report.get('timestamp')}")
