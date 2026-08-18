@@ -33,7 +33,7 @@ def response_step(state):
     # select the most relevant findings and generate a report using the response agent
     enriched_findings = state["enriched_findings"]
     max_findings_for_response = 20
-    max_context_chars = 100
+    max_context_chars = 500
     def best_score(finding):
         if 'context' in finding and finding['context']:
             return min(ctx['relevance_score'] for ctx in finding['context'])
