@@ -8,7 +8,7 @@ from agents.response_agent import ResponseAgent
 from langgraph.graph import StateGraph, END
 
 # set the log and vector store paths for the pipeline
-log_path = os.path.join("data", "logs", "custom_test.log")
+log_path = os.path.join("data", "logs", "sample_auth.log")
 vector_store_path = os.path.join("data", "vector_store")
 
 # define pipeline steps as functions compatible with langchain/langgraph

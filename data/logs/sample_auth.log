@@ -1,0 +1,40 @@
+Aug 12 08:00:04 fakehost-demo sshd[1187]: Server listening on 0.0.0.0 port 22.
+Aug 12 08:03:22 fakehost-demo sshd[1204]: Accepted password for testuser01 from 203.0.113.10 port 49812 ssh2
+Aug 12 08:03:22 fakehost-demo systemd-logind[812]: New session 41 of user testuser01.
+Aug 12 08:11:07 fakehost-demo sshd[1231]: Received disconnect from 203.0.113.10 port 49812:11: disconnected by user
+Aug 12 08:17:45 fakehost-demo sshd[1263]: error: PAM: Authentication failure for illegal user fakeadmin from 203.0.113.45
+Aug 12 08:17:48 fakehost-demo sshd[1265]: error: PAM: Authentication failure for illegal user fakeadmin from 203.0.113.45
+Aug 12 08:17:51 fakehost-demo sshd[1267]: error: PAM: Authentication failure for illegal user rootcopy from 203.0.113.45
+Aug 12 08:17:54 fakehost-demo sshd[1269]: error: PAM: Authentication failure for illegal user rootcopy from 203.0.113.45
+Aug 12 08:17:57 fakehost-demo sshd[1271]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=rootcopy
+Aug 12 08:18:00 fakehost-demo sshd[1273]: Disconnecting authenticating user rootcopy 203.0.113.45 port 51330: Too many authentication failures [preauth]
+Aug 12 08:18:03 fakehost-demo fail2ban.actions[940]: WARNING [sshd] Ban 203.0.113.45 after too many failed attempts
+Aug 12 08:26:19 fakehost-demo sshd[1298]: Connection closed by authenticating user notarealuser 203.0.113.77 port 40118 [preauth]
+Aug 12 09:02:11 fakehost-demo sshd[1402]: error: PAM: Authentication failure for illegal user demo-svc from 192.168.1.100
+Aug 12 09:02:14 fakehost-demo sshd[1404]: error: PAM: Authentication failure for illegal user demo-svc from 192.168.1.100
+Aug 12 09:02:17 fakehost-demo sshd[1406]: error: PAM: Authentication failure for illegal user demo-svc from 192.168.1.100
+Aug 12 09:02:20 fakehost-demo sshd[1408]: error: PAM: Authentication failure for illegal user backupfake from 192.168.1.100
+Aug 12 09:02:24 fakehost-demo fail2ban.actions[940]: NOTICE [sshd] Detected brute force pattern originating from 192.168.1.100
+Aug 12 09:14:58 fakehost-demo sshd[1447]: error: PAM: Authentication failure for illegal user testuser02 from 203.0.113.77
+Aug 12 09:15:02 fakehost-demo sshd[1449]: error: PAM: Authentication failure for illegal user testuser02 from 203.0.113.77
+Aug 12 09:15:06 fakehost-demo sshd[1451]: failed login for user testuser02 from 203.0.113.77 port 40233
+Aug 12 09:31:40 fakehost-demo sshd[1488]: Accepted password for testuser01 from 203.0.113.10 port 50120 ssh2
+Aug 12 09:41:03 fakehost-demo sshd[1502]: Accepted publickey for fakeadmin from 10.0.0.200 port 44120 ssh2
+Aug 12 09:41:05 fakehost-demo sshd[1502]: pam_unix(sshd:session): session opened for user fakeadmin by (uid=0)
+Aug 12 09:44:31 fakehost-demo sudo:  fakeadmin : TTY=pts/1 ; PWD=/home/fakeadmin ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Aug 12 09:45:02 fakehost-demo sudo:  fakeadmin : TTY=pts/1 ; PWD=/home/fakeadmin ; USER=root ; COMMAND=/usr/bin/passwd testuser01
+Aug 12 09:45:11 fakehost-demo sudo: pam_unix(sudo:session): session opened for user root by fakeadmin(uid=0)
+Aug 12 09:47:18 fakehost-demo su[1588]: root access granted to fakeadmin on pts/1
+Aug 12 09:49:26 fakehost-demo auditd[655]: possible privilege escalation attempt recorded for uid=1001 exe=/tmp/fake-escalate
+Aug 12 10:02:55 fakehost-demo clamd[733]: /tmp/fake-payload.bin: Win.Trojan.FakeSample-0 FOUND
+Aug 12 10:03:10 fakehost-demo CRON[1640]: (root) CMD (/usr/bin/python3 /tmp/fake_malware_sample.py)
+Aug 12 10:05:44 fakehost-demo kernel: [ 9182.113441] audit: suspected ransomware activity blocked for pid=1655 comm=fake-encryptor
+Aug 12 10:08:02 fakehost-demo clamd[733]: /home/testuser01/downloads/fake-sample.tar: Unix.Worm.FakeTest-1 FOUND
+Aug 12 10:19:37 fakehost-demo sshd[1701]: error: PAM: Authentication failure for illegal user demo-svc from 203.0.113.201
+Aug 12 10:19:41 fakehost-demo sshd[1703]: error: PAM: Authentication failure for illegal user demo-svc from 203.0.113.201
+Aug 12 10:19:45 fakehost-demo sshd[1705]: error: PAM: Authentication failure for illegal user demo-svc from 203.0.113.201
+Aug 12 10:19:49 fakehost-demo fail2ban.actions[940]: WARNING [sshd] Ban 203.0.113.201 after too many failed attempts
+Aug 12 10:33:12 fakehost-demo sshd[1744]: Accepted password for testuser01 from 203.0.113.10 port 50488 ssh2
+Aug 12 10:33:19 fakehost-demo sudo:  testuser01 : TTY=pts/2 ; PWD=/home/testuser01 ; USER=root ; COMMAND=/usr/bin/systemctl restart fake-agent
+Aug 12 10:41:55 fakehost-demo systemd-logind[812]: Session 41 logged out. Waiting for processes to exit.
+Aug 12 10:42:03 fakehost-demo sshd[1204]: pam_unix(sshd:session): session closed for user testuser01

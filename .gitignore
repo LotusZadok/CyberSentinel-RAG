@@ -203,3 +203,7 @@ venv/
 # Ignore logs and findings (optional, uncomment if needed)
 # /data/logs/*.csv
 # /data/logs/*.txt_findings.csv
+
+# The blanket *.log rule above would hide the committed sample log too.
+# User-supplied logs stay ignored; only the synthetic sample is tracked.
+!data/logs/sample_auth.log
