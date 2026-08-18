@@ -39,15 +39,19 @@ class ResponseAgent:
         )
 
     def _create_prompt(self, findings: List[Dict[str, Any]]) -> str:
-        # Two labelled blocks. Observed findings are the only established facts; retrieved
-        # documents are consultation material that may not apply to this incident at all.
-        # Merging them is what made earlier reports assert malware that was never in the log.
+        # observed findings are the only established facts; retrieved documents are
+        # consultation material. merging both blocks is what made earlier reports
+        # assert malware that was never in the log.
         parts = [
             "As a cybersecurity expert, analyze the incident below and provide:",
             "1. A summary of the situation",
-            "2. Severity level (LOW, MEDIUM, HIGH, CRITICAL)",
-            "3. Possible implications",
-            "4. Specific and actionable recommendations",
+            "2. Severity conditions: walk the HIGH conditions of the severity scale one by one,",
+            "   state for each whether it is present in OBSERVED FINDINGS, and quote the [F] item",
+            "   that satisfies it",
+            "3. Severity level (LOW, MEDIUM, HIGH, CRITICAL), derived by counting the conditions",
+            "   you marked present in section 2",
+            "4. Possible implications",
+            "5. Specific and actionable recommendations",
             "",
             "=== OBSERVED FINDINGS ===",
             "These are the ONLY established facts about this incident. They were produced by",
@@ -73,8 +77,8 @@ class ResponseAgent:
             "They are NOT evidence about this incident and may not apply to it at all.",
             "",
         ]
-        # deduplicated globally: the same documents are attached to many findings, and
-        # repeating them per finding roughly doubled the prompt for no added information
+        # deduplicated globally: the same documents hang off many findings, and repeating
+        # them per finding roughly doubled the prompt for no added information
         seen = OrderedDict()
         for finding in findings:
             for ctx in finding.get('context') or []:
@@ -112,6 +116,9 @@ class ResponseAgent:
             "  HIGH: successful privilege escalation, OR malware detected, OR access to",
             "  credential stores.",
             "  CRITICAL: two or more of the HIGH conditions on the same host.",
+            "- Do not state the severity level before the \"Severity conditions\" section. Every",
+            "  condition marked present there must name the [F] item that satisfies it, and the",
+            "  level must follow from how many you marked present, not from overall impression.",
         ]
         return "\n".join(parts)
 
