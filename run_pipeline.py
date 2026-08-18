@@ -2,6 +2,7 @@
 
 import os
 import sys
+from typing import Any, Dict, List, TypedDict
 from agents.detector_agent import DetectorAgent
 from agents.context_agent import ContextAgent
 from agents.response_agent import ResponseAgent
@@ -10,6 +11,16 @@ from langgraph.graph import StateGraph, END
 # set the log and vector store paths for the pipeline
 log_path = os.path.join("data", "logs", "sample_auth.log")
 vector_store_path = os.path.join("data", "vector_store")
+
+# State carried between graph nodes. Declaring it makes LangGraph merge each node's
+# partial return into the accumulated state; with a bare dict schema the state is
+# replaced instead, so only the last node's output survives to the end of the run.
+# Every key is written by exactly one node and replaces any previous value, so none
+# of them needs a reducer annotation.
+class PipelineState(TypedDict, total=False):
+    findings: List[Dict[str, Any]]
+    enriched_findings: List[Dict[str, Any]]
+    report: Dict[str, Any]
 
 # define pipeline steps as functions compatible with langchain/langgraph
 # each step receives and returns a state dict for chaining
@@ -53,8 +64,8 @@ def response_step(state):
 if __name__ == "__main__":
     # main orchestration using langgraph stategraph
     print("\n=== cybersentinel-rag: automated analysis pipeline (langgraph) ===\n")
-    # define the graph with state dict as schema
-    workflow = StateGraph(state_schema=dict)
+    # define the graph with the declared pipeline state as schema
+    workflow = StateGraph(state_schema=PipelineState)
     workflow.add_node("detect", detect_step)
     workflow.add_node("context", context_step)
     workflow.add_node("response", response_step)
