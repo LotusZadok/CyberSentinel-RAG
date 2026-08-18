@@ -19,6 +19,10 @@ Professor: Kenneth Obando Rodríguez
 
 - Python 3.8 or higher
 - Git
+- [Ollama](https://ollama.com/), which serves the language model locally
+- About 6 GB of free VRAM to run the model on the GPU. It also runs on CPU, far slower
+
+Everything runs locally. No API key, account or paid service is needed.
 
 ### 1. Clone the repository
 
@@ -45,13 +49,20 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Set your OpenAI key
+### 4. Pull the language model
 
-Create a `.env` file in the root directory and add:
-
-```env
-OPENAI_API_KEY=sk-...
+```sh
+ollama pull llama3.1:8b
 ```
+
+Around 4.9 GB of download. With `num_ctx=8192` it occupies about 5.8 GB of VRAM
+and fits entirely on an 8 GB card. Check that Ollama is serving it:
+
+```sh
+ollama ps
+```
+
+`100% GPU` in the PROCESSOR column means nothing spilled to CPU.
 
 ---
 
@@ -77,13 +88,15 @@ This script will ingest all files in `data/knowledge_base/` into the vector stor
 1. Place your log file in `data/logs/` (e.g., `custom_test.log`).
 2. Edit `run_pipeline.py` to use the log you want:
    ```python
-   LOG_PATH = os.path.join("data", "logs", "custom_test.log")
+   log_path = os.path.join("data", "logs", "custom_test.log")
    ```
 3. Run the pipeline:
    ```sh
    python run_pipeline.py
    ```
-4. The system will detect incidents, enrich them with context, and generate an expert report using GPT.
+4. The system will detect incidents, enrich them with context, judge severity, and write
+   an expert report. See [docs/sample-run.md](docs/sample-run.md) for the full output of a
+   real run.
 
 ---
 
@@ -106,9 +119,10 @@ The CLI allows you to:
 ## Pipeline Limits and Performance
 
 - The pipeline will enrich up to 300 findings per run (configurable in `run_pipeline.py`).
-- Only the 20 most relevant enriched findings (based on context score) will be sent to the ResponseAgent (GPT) to avoid token limit errors.
-- Each context is truncated to 100 characters before sending to GPT.
-- You can increase these limits if your hardware and OpenAI account allow it, but be aware of token and performance constraints.
+- Only the 20 most relevant enriched findings (based on context score) reach the triage and report steps.
+- Each retrieved document is truncated to 500 characters before it enters a prompt.
+- One model call per finding is spent generating its retrieval query, plus one call for triage and one for the report. That first group dominates the runtime.
+- The report prompt measures around 3300 tokens, against a context window of 8192.
 
 ---
 
@@ -122,6 +136,7 @@ CyberSentinel-RAG/
 │   ├── logs/
 │   └── vector_store/
 ├── diagrams/            # Project diagrams
+├── docs/                # Sample run and corpus manifest
 ├── utils/               # Utilities
 └── requirements.txt     # Project dependencies
 ```
@@ -130,10 +145,28 @@ CyberSentinel-RAG/
 
 ## Notes
 
-- The system is optimized to avoid OpenAI token/rate errors.
 - You can customize the agents and detection patterns as needed.
-- Example logs are in `data/logs/`.
-- The knowledge base is in `data/knowledge_base/`.
+- Example logs are in `data/logs/`. `sample_auth.log` is synthetic: it was written for this
+  project and describes no real host or incident.
+- The knowledge base is in `data/knowledge_base/`, documented in [docs/corpus.md](docs/corpus.md).
+- [docs/sample-run.md](docs/sample-run.md) records one complete run, with the environment it
+  came from.
+
+---
+
+## Limitations
+
+- The detector covers six finding types over SSH and sudo authentication logs. Anything else
+  in a log passes through unnoticed.
+- The detector is rule-based. It matches regular expressions, so it finds what those patterns
+  describe and nothing more.
+- Retrieval quality has not been evaluated against a labelled set. There is no measurement of
+  whether the documents pulled for a finding are the right ones.
+- LLM output is not deterministic. Wording changes between runs on the same input, and the
+  Ollama runtime does not honour a fixed seed strictly.
+- Severity judgement had to be isolated in its own node. While the model wrote the report and
+  judged severity in the same call, it did not apply the rubric: it would list two or three
+  HIGH conditions and still return HIGH, where the rubric calls for CRITICAL.
 
 ---
 
@@ -151,14 +184,25 @@ If you encounter issues during installation:
 
 This project leverages [LangChain](https://python.langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/) to orchestrate and enhance the multi-agent pipeline:
 
-- **LangChain** is used to integrate Large Language Models (LLMs) for advanced query generation and context enrichment, especially within the `ContextAgent`.
-- **LangGraph** is used to define and manage the pipeline as a directed graph, where each agent (Detector, Context, Response) is a node, allowing for flexible and extensible orchestration of the analysis workflow.
+- **LangChain** talks to the local model through `langchain-ollama`, in the `ContextAgent`, the `TriageAgent` and the `ResponseAgent`.
+- **LangGraph** defines the pipeline as a directed graph, one node per step, which makes steps easy to add, remove or reorder.
 
 ### How it works
 
-- The pipeline is defined as a graph: `DetectorAgent → ContextAgent → ResponseAgent`.
-- LangChain enables the use of LLMs (e.g., OpenAI GPT) to generate more relevant queries for context retrieval and to enhance the quality of the analysis.
-- LangGraph manages the execution flow, making it easy to add, remove, or modify steps in the pipeline.
+The graph has four nodes, run in order:
+
+1. **Detection** — `DetectorAgent` reads the log and flags six kinds of finding. This step is
+   rule-based: plain regular expressions over each line, no machine learning and no model call.
+2. **Query generation and retrieval** — `ContextAgent` asks the model to write one search query
+   per finding, then pulls the three closest documents for each from ChromaDB.
+3. **Severity triage** — `TriageAgent` sees only the findings and the severity rubric, no
+   retrieved documents and no prose. It returns which HIGH conditions are present, the log line
+   that satisfies each, and the resulting level.
+4. **Report** — `ResponseAgent` writes the report. It receives the severity already decided and
+   copies it; it does not recompute it.
+
+Findings and retrieved documents travel to the report in separate labelled blocks, so the model
+cannot present reference material as something observed on the host.
 
 ---
 
