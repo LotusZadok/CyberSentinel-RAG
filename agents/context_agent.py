@@ -14,12 +14,11 @@ from langchain_core.prompts import PromptTemplate
 # local model served by ollama; never left implicit
 OLLAMA_MODEL = "llama3.1:8b"
 OLLAMA_NUM_CTX = 8192
+# reduces variation between runs; ollama does not honour it strictly
+OLLAMA_SEED = 42
 
-# Measured over the 39 findings of sample_auth.log: 39/39 outputs clean, no preamble,
-# no quoting, single line, no boolean syntax and no IP, user, timestamp, host or PID.
-# The `ip` field is deliberately not exposed as its own variable: it is forbidden in the
-# output, so labelling it in the input only invites the model to copy it. `entry` is
-# passed whole, which is what actually exercises the exclusion rule.
+# the ip is not passed as its own field: it is banned from the output, and labelling it
+# in the input only invites the model to copy it. entry is passed whole.
 QUERY_TEMPLATE = """You generate search queries for a cybersecurity knowledge base containing MITRE ATT&CK techniques, CAPEC attack patterns and CVE records.
 
 Write ONE search query for the security event below.
@@ -43,6 +42,7 @@ class ContextAgent:
             model=OLLAMA_MODEL,
             temperature=0,
             num_ctx=OLLAMA_NUM_CTX,
+            seed=OLLAMA_SEED,
         )
         self.query_prompt = PromptTemplate(
             input_variables=["finding_type", "count", "entry"],

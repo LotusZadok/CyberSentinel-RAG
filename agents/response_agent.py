@@ -14,6 +14,8 @@ sys.path.append(project_root)
 OLLAMA_MODEL = "llama3.1:8b"
 OLLAMA_NUM_CTX = 8192
 OLLAMA_MAX_TOKENS = 1000
+# reduces variation between runs; ollama does not honour it strictly
+OLLAMA_SEED = 42
 
 SYSTEM_PROMPT = (
     "You are a cybersecurity analyst. "
@@ -33,6 +35,7 @@ class ResponseAgent:
             temperature=0.2,
             num_ctx=OLLAMA_NUM_CTX,
             num_predict=OLLAMA_MAX_TOKENS,
+            seed=OLLAMA_SEED,
         )
 
     def _create_prompt(self, findings: List[Dict[str, Any]]) -> str:
