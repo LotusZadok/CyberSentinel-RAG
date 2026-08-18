@@ -193,6 +193,8 @@ The graph has four nodes, run in order:
 
 1. **Detection** — `DetectorAgent` reads the log and flags six kinds of finding. This step is
    rule-based: plain regular expressions over each line, no machine learning and no model call.
+   A single line can match more than one pattern and yield several findings, so the finding
+   count does not track the line count.
 2. **Query generation and retrieval** — `ContextAgent` asks the model to write one search query
    per finding, then pulls the three closest documents for each from ChromaDB.
 3. **Severity triage** — `TriageAgent` sees only the findings and the severity rubric, no

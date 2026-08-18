@@ -8,10 +8,10 @@ estimated.
 
 | File | Source | Downloaded | Size | Indexed | Retrievable |
 |---|---|---|---|---|---|
-| `enterprise-attack.json` | MITRE ATT&CK Enterprise, STIX 2.0 bundle | not determined | 38.5 MB | 2240 | 1254 |
-| `ics-attack.json` | MITRE ATT&CK ICS, STIX 2.0 bundle | not determined | 2.4 MB | 282 | 228 |
-| `mobile-attack.json` | MITRE ATT&CK Mobile, STIX 2.0 bundle | not determined | 3.4 MB | 380 | 243 |
-| `stix-capec.json` | MITRE CAPEC, STIX 2.1 bundle | not determined | 4.3 MB | 1493 | 1493 |
+| `enterprise-attack.json` | MITRE ATT&CK Enterprise, STIX 2.0 bundle — https://github.com/mitre/cti/blob/master/enterprise-attack/enterprise-attack.json | not determined | 38.5 MB | 2240 | 1254 |
+| `ics-attack.json` | MITRE ATT&CK ICS, STIX 2.0 bundle — https://github.com/mitre/cti/blob/master/ics-attack/ics-attack.json | not determined | 2.4 MB | 282 | 228 |
+| `mobile-attack.json` | MITRE ATT&CK Mobile, STIX 2.0 bundle — https://github.com/mitre/cti/blob/master/mobile-attack/mobile-attack.json | not determined | 3.4 MB | 380 | 243 |
+| `stix-capec.json` | MITRE CAPEC, STIX 2.1 bundle — https://github.com/mitre/cti/blob/master/capec/2.1/stix-capec.json | not determined | 4.3 MB | 1493 | 1493 |
 | `nvdcve-2.0-modified.json` | NVD CVE JSON 2.0 "modified" feed — https://nvd.nist.gov/feeds/json/cve/2.0/nvdcve-2.0-modified.json.zip | 2025-06-16 | 8.1 MB | 2118 | 2118 |
 | `known_exploited_vulnerabilities.csv` | CISA Known Exploited Vulnerabilities catalog — https://www.cisa.gov/sites/default/files/csv/known_exploited_vulnerabilities.csv | not determined | 0.7 MB | 1366 | 1366 |
 | | | | **Total** | **7879** | **6702** |
@@ -20,9 +20,11 @@ estimated.
 *Retrievable* is how many of those a query can actually reach, after the
 metadata filter described below.
 
-The source URLs for the four MITRE bundles are left blank on purpose: the exact
-distribution they were pulled from could not be established from the files
-themselves. See the note at the end of this file.
+The three ATT&CK bundles declare `spec_version: 2.0` at the bundle root, which
+places them in the `mitre/cti` repository. That repository is archived: the
+current distribution is `mitre-attack/attack-stix-data`, in STIX 2.1. The
+corpora here have not been migrated to it, and the ingestion code reads the 2.0
+bundles as they are.
 
 ### How the dates were established
 
@@ -82,13 +84,13 @@ By file: enterprise-attack 986, mobile-attack 137, ics-attack 54.
 Chroma's `$nin` only tests documents that carry the key, so NVD and KEV records,
 which have no `stix_type` at all, are unaffected and remain fully searchable.
 
-## Note for the maintainer
+## On the STIX versions
 
-The four MITRE source URLs are blank because they could not be confirmed from
-the file contents. Two hints, in case they help you fill them in:
+The four MITRE bundles do not share a spec version. The three ATT&CK ones are
+STIX 2.0, declared at the bundle root. `stix-capec.json` carries no root
+`spec_version`, but its objects declare `2.1`, so it comes from a different
+distribution inside the same repository.
 
-- The three ATT&CK bundles declare `spec_version: 2.0` at the bundle root, which
-  points at the older STIX 2.0 distribution rather than the current STIX 2.1
-  `attack-stix-data` repository.
-- `stix-capec.json` carries no root `spec_version`, but its objects declare
-  `2.1`, so it came from a different distribution than the ATT&CK bundles.
+The ingestion code does not care: it dispatches on the presence of an `objects`
+key, which both versions have, and reads `name`, `description`, `type` and
+`external_references` from each object, which both versions spell the same way.
