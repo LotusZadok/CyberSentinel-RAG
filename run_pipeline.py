@@ -5,6 +5,7 @@ import sys
 from typing import Any, Dict, List, TypedDict
 from agents.detector_agent import DetectorAgent
 from agents.context_agent import ContextAgent
+from agents.triage_agent import TriageAgent
 from agents.response_agent import ResponseAgent
 from langgraph.graph import StateGraph, END
 
@@ -20,6 +21,8 @@ vector_store_path = os.path.join("data", "vector_store")
 class PipelineState(TypedDict, total=False):
     findings: List[Dict[str, Any]]
     enriched_findings: List[Dict[str, Any]]
+    selected_findings: List[Dict[str, Any]]
+    triage: Dict[str, Any]
     report: Dict[str, Any]
 
 # define pipeline steps as functions compatible with langchain/langgraph
@@ -40,8 +43,8 @@ def context_step(state):
     enriched_findings = context_agent.process_findings(findings, max_enrich=300)
     return {"enriched_findings": enriched_findings}
 
-def response_step(state):
-    # select the most relevant findings and generate a report using the response agent
+def triage_step(state):
+    # select the most relevant findings, then decide severity on them alone
     enriched_findings = state["enriched_findings"]
     max_findings_for_response = 20
     max_context_chars = 500
@@ -57,8 +60,14 @@ def response_step(state):
             for ctx in finding_copy['context']:
                 ctx['description'] = ctx['description'][:max_context_chars]
         findings_for_response.append(finding_copy)
+    triage_agent = TriageAgent()
+    triage = triage_agent.assess(findings_for_response)
+    return {"selected_findings": findings_for_response, "triage": triage}
+
+def response_step(state):
+    # write the report over the same findings, reusing the severity already decided
     response_agent = ResponseAgent()
-    report = response_agent.suggest_action(findings_for_response)
+    report = response_agent.suggest_action(state["selected_findings"], state["triage"])
     return {"report": report}
 
 if __name__ == "__main__":
@@ -68,10 +77,12 @@ if __name__ == "__main__":
     workflow = StateGraph(state_schema=PipelineState)
     workflow.add_node("detect", detect_step)
     workflow.add_node("context", context_step)
+    workflow.add_node("triage", triage_step)
     workflow.add_node("response", response_step)
     workflow.set_entry_point("detect")
     workflow.add_edge("detect", "context")
-    workflow.add_edge("context", "response")
+    workflow.add_edge("context", "triage")
+    workflow.add_edge("triage", "response")
     workflow.add_edge("response", END)
     graph = workflow.compile()
     # run the graph and collect results
@@ -84,6 +95,13 @@ if __name__ == "__main__":
     enriched_findings = result.get("enriched_findings", [])
     if len(enriched_findings) > 20:
         print(f"[pipeline] only the 20 most relevant enriched findings will be sent to the responseagent to avoid token limit errors.")
+    triage = result.get("triage", {})
+    print("\n=== triage ===")
+    print(triage.get("raw"))
+    # the level comes from the model's own output; an unparsable answer is not guessed
+    if not triage.get("level"):
+        print("[pipeline] error: could not parse a severity level from the triage output.", file=sys.stderr)
+        sys.exit(1)
     # a run that gets this far without a report is a failure, not a success:
     # exiting 0 here is what hid the state bug that discarded a generated report
     if not result.get("report"):
