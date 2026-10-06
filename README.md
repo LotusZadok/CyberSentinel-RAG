@@ -1,10 +1,8 @@
 # CyberSentinel-RAG
 
-Multi-agent system for automated cybersecurity incident analysis and response using RAG (Retrieval Augmented Generation) and vector knowledge bases.
+Four-node LangGraph pipeline that turns SSH/sudo auth logs into a severity-rated incident report, running fully local on Ollama.
 
 ---
-
-# Multiagents
 
 ## Instituto Tecnológico de Costa Rica
 
@@ -130,7 +128,7 @@ The CLI allows you to:
 
 ```
 CyberSentinel-RAG/
-├── agents/              # System agents
+├── agents/              # Pipeline nodes
 ├── data/                # Data and knowledge base
 │   ├── knowledge_base/
 │   ├── logs/
@@ -145,7 +143,7 @@ CyberSentinel-RAG/
 
 ## Notes
 
-- You can customize the agents and detection patterns as needed.
+- You can customize the nodes and detection patterns as needed.
 - Example logs are in `data/logs/`. `sample_auth.log` is synthetic: it was written for this
   project and describes no real host or incident.
 - The knowledge base is in `data/knowledge_base/`, documented in [docs/corpus.md](docs/corpus.md).
@@ -182,7 +180,7 @@ If you encounter issues during installation:
 
 ## LangChain & LangGraph Orchestration
 
-This project leverages [LangChain](https://python.langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/) to orchestrate and enhance the multi-agent pipeline:
+This project leverages [LangChain](https://python.langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/) to orchestrate and enhance the four-node pipeline:
 
 - **LangChain** talks to the local model through `langchain-ollama`, in the `ContextAgent`, the `TriageAgent` and the `ResponseAgent`.
 - **LangGraph** defines the pipeline as a directed graph, one node per step, which makes steps easy to add, remove or reorder.
@@ -191,16 +189,16 @@ This project leverages [LangChain](https://python.langchain.com/) and [LangGraph
 
 The graph has four nodes, run in order:
 
-1. **Detection** — `DetectorAgent` reads the log and flags six kinds of finding. This step is
+1. **Rule-based detector** — `DetectorAgent` reads the log and flags six kinds of finding. This step is
    rule-based: plain regular expressions over each line, no machine learning and no model call.
    A single line can match more than one pattern and yield several findings, so the finding
    count does not track the line count.
-2. **Query generation and retrieval** — `ContextAgent` asks the model to write one search query
+2. **Per-finding retrieval against ChromaDB** — `ContextAgent` asks the model to write one search query
    per finding, then pulls the three closest documents for each from ChromaDB.
-3. **Severity triage** — `TriageAgent` sees only the findings and the severity rubric, no
+3. **Isolated severity triage against a fixed rubric** — `TriageAgent` sees only the findings and the severity rubric, no
    retrieved documents and no prose. It returns which HIGH conditions are present, the log line
    that satisfies each, and the resulting level.
-4. **Report** — `ResponseAgent` writes the report. It receives the severity already decided and
+4. **Report generation** — `ResponseAgent` writes the report. It receives the severity already decided and
    copies it; it does not recompute it.
 
 Findings and retrieved documents travel to the report in separate labelled blocks, so the model
